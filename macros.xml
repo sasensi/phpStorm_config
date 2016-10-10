@@ -1,0 +1,47 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="endline semicolon">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
+    <macro name="singleQuote_insertInString">
+      <typing text-keycode="52:0;110:0;110:0;52:0">'..'</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+    </macro>
+    <macro name="colon + linebreak">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="44:0">,</typing>
+      <action id="NextTemplateVariable" />
+      <action id="EditorEnter" />
+    </macro>
+    <macro name="comment title">
+      <typing text-keycode="111:0;111:0">//</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="111:0;111:0">//</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="111:0;111:0">//</typing>
+      <action id="EditorUp" />
+      <typing text-keycode="32:0">&amp;#x20;</typing>
+    </macro>
+    <macro name="LABEL =&gt; ''">
+      <typing text-keycode="76:1;65:1;66:1;69:1;76:1;32:0;61:0;153:1;32:0;52:0">LABEL&amp;#x20;=&gt;&amp;#x20;'</typing>
+    </macro>
+    <macro name="URL =&gt; ''">
+      <typing text-keycode="85:1;82:1;76:1;32:0;61:0;153:1;32:0;52:0">URL&amp;#x20;=&gt;&amp;#x20;'</typing>
+    </macro>
+    <macro name="SUB =&gt; []">
+      <typing text-keycode="83:1;85:1;66:1;32:0;61:0;153:1;32:0">SUB&amp;#x20;=&gt;&amp;#x20;</typing>
+      <shortuct text="control alt 5" />
+      <shortuct text="control alt RIGHT_PARENTHESIS" />
+      <action id="EditorLeft" />
+      <action id="EditorEnter" />
+    </macro>
+    <macro name="locale_wrap">
+      <typing text-keycode="53:0">(</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <typing text-keycode="56:0">_</typing>
+    </macro>
+  </component>
+</application>
