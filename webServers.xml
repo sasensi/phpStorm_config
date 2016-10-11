@@ -1,8 +1,21 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="cfc37997-ef25-4175-821d-dd7b9bfa800e" name="localhost" url="http://localhost/">
-        <fileTransfer accessType="LOCAL" />
+      <webServer id="b8580771-1d8b-433b-b8be-432a3a666f72" name=".net" url="http://chrono.geofp.net">
+        <fileTransfer host="chrono.geofp.net" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="10ab9ca0-a6b0-4796-83f6-160414f9e3bb" name=".com" url="http://chrono.geofp.com">
+        <fileTransfer host="chrono.geofp.com" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>
