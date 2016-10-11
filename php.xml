@@ -17,7 +17,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6">
-        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php5.6.19\php-cgi.exe" php_cli="C:\wamp64\bin\php\php5.6.19\php.exe" path_separator=";" version="5.6.19">
+        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php5.6.19\php-cgi.exe" php_cli="C:\wamp64\bin\php\php5.6.19\php.exe" path_separator=";" remote_host="127.0.0.1" version="5.6.19">
           <additional_php_ini />
           <configuration_file>C:\wamp64\bin\php\php5.6.19\php.ini</configuration_file>
           <configuration_options>
