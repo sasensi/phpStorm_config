@@ -35,7 +35,12 @@
     <keyboard-shortcut first-keystroke="ctrl colon" />
   </action>
   <action id="CompareTwoFiles" />
-  <action id="Console.Execute.Multiline" />
+  <action id="Console.Execute">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+  </action>
+  <action id="Console.Execute.Multiline">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+  </action>
   <action id="Console.Jdbc.Execute.Selection">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
