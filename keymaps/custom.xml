@@ -52,7 +52,7 @@
   <action id="Console.TableResult.Reload" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.EvaluateInConsole">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
   </action>
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowDiff" />
@@ -228,6 +228,9 @@
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
