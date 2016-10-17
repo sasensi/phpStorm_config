@@ -1,0 +1,9 @@
+<templateSet group="PHP">
+  <template name="kv" value="'$KEY$' =&gt; $VALUE$" description="key =&gt; value pair" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
