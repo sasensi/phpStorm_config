@@ -9,6 +9,9 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad1" />
   </action>
+  <action id="ActivateRegexTesterToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl numpad6" />
+  </action>
   <action id="ActivateRemoteHostToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad4" />
   </action>
