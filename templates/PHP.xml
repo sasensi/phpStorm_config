@@ -6,4 +6,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="ei" value="elseif ($CONDITION$)&#10;{&#10;    $END$&#10;}" description="else if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
 </templateSet>
