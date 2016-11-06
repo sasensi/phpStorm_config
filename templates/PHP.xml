@@ -16,7 +16,6 @@
     <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Expression" value="true" />
-      <option name="PHP Statement" value="true" />
     </context>
   </template>
 </templateSet>
