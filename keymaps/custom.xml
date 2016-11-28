@@ -219,6 +219,9 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -233,6 +236,10 @@
   <action id="ResizeToolWindowUp" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
