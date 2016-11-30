@@ -1,12 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="File '[UML] - ...\src\Ycc\Ui\Component\Form\AbstractField.php'" />
     <option name="defaultScopeName" value="File '[UML] - ...\src\Ycc\Ui\Component\Form\AbstractField.php'" />
     <option name="localRegularExpressions" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File '[UML] - ...\src\Ycc\Ui\Component\Form\AbstractField.php'" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
