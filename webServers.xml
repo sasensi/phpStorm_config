@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e0c2a3ff-86d9-4390-82ca-6344cc3fc20e" name=".net" url="http://chrono.geofp.net">
+        <fileTransfer host="chrono.geofp.net" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
