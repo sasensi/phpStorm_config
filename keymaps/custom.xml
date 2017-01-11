@@ -18,6 +18,7 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad5" />
   </action>
+  <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.AddUnversioned" />
   <action id="CloseActiveTab" />
   <action id="CloseAllEditors">
@@ -49,10 +50,10 @@
   </action>
   <action id="Console.TableResult.ColumnSortReset" />
   <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="enter" />
   </action>
   <action id="Console.TableResult.Reload" />
+  <action id="ContextHelp" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.EvaluateInConsole">
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
@@ -119,6 +120,9 @@
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="ctrl u" />
@@ -234,6 +238,9 @@
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
@@ -259,6 +266,12 @@
   <action id="ShowUmlDiagram" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl exclamation_mark" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="ctrl less" />
@@ -295,5 +308,7 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="ViewSource" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>
