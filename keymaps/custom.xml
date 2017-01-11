@@ -52,8 +52,12 @@
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="Console.TableResult.NavigateAction">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
+  <action id="CopyElement" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.EvaluateInConsole">
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
@@ -61,8 +65,13 @@
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DomCollectionControl.Edit">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="EditorAddOrRemoveCaret">
@@ -157,6 +166,9 @@
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="ImplementMethods" />
+  <action id="Jdbc.OpenTableEditor">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="JumpToLastWindow" />
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="shift ctrl alt back_space" />
@@ -226,6 +238,9 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
+  <action id="RemoteHostView.EditSource">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -267,6 +282,12 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl exclamation_mark" />
   </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
@@ -298,6 +319,7 @@
     <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="TypeHierarchy" />
+  <action id="UML.ApplyCurrentLayout" />
   <action id="Uml.ShowDiff" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift ctrl exclamation_mark" />
@@ -309,6 +331,9 @@
   </action>
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="XDebugger.SetValue" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>
