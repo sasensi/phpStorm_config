@@ -1,7 +1,7 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b8580771-1d8b-433b-b8be-432a3a666f72" name=".net" url="http://chrono.geofp.net">
+      <webServer id="e0c2a3ff-86d9-4390-82ca-6344cc3fc20e" name=".net" url="http://chrono.geofp.net">
         <fileTransfer host="chrono.geofp.net" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
@@ -9,17 +9,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="10ab9ca0-a6b0-4796-83f6-160414f9e3bb" name=".com" url="http://chrono.geofp.com">
-        <fileTransfer host="chrono.geofp.com" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
-  </component>
-  <component name="webServersAuthStorage">
-    <data>AAABEJBGwWP1ZV5VmQppQOGG9d+vrMczy9+u98GVf9tMbR4CfjRUwzTay7Lis/peWRyvDWP8dn+UN6NEp3uhpe3M7sF7k5dYHQ1f40yCXg2IENxQBiS3ofPFExzpt9aDBUmV7uUQ2Rcn/dGgJ/YfRO5IRyYffCG4zpGtRH5mRT55rBN3CXOrPT1Z+58NgyjBOovT1sVAAccHOhz80vSlsoEza2HHpIBiI/9cGCIQ8Jr+adS/BhwNR475QmCYgNtEbsOxvBcJ0bE5UUcJGdl2mLQfeXO4QSb93V21PRjIJhM/qVAHlnXDe9wqCTE+c8+qNXoEbgS0ctkt9UaddQ4rnIPh70M4wRMbY0YDYOEl0j9hIG3wNK9VEXrhXODMrkUreruDNA==</data>
   </component>
 </application>

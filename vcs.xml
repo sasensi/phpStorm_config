@@ -6,10 +6,6 @@
           <option name="url" value="http://forge.geofp.net" />
           <option name="userName" value="samuel" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://github.com" />
-          <option name="userName" value="sasensi" />
-        </UrlAndUserName>
       </list>
     </option>
   </component>

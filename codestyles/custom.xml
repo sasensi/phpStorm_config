@@ -9,7 +9,6 @@
   <option name="HTML_KEEP_WHITESPACES_INSIDE" value="pre,textarea" />
   <option name="HTML_INLINE_ELEMENTS" value="a,abbr,acronym,b,basefont,bdo,big,br,cite,cite,code,dfn,em,font,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var" />
   <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="" />
-  <option name="HTML_ENFORCE_QUOTES" value="true" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
