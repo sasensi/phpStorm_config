@@ -72,7 +72,7 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="control button1" />
@@ -338,7 +338,7 @@
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="XDebugger.SetValue" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
