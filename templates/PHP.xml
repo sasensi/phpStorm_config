@@ -29,4 +29,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="lazy" value="if (!isset($VAR$))&#10;{&#10;    $VAR$ = $VALUE$;&#10;}&#10;return $VAR$;" description="lazy loading setter" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
 </templateSet>
