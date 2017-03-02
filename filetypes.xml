@@ -1,18 +1,19 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
       <mapping pattern="bf5ffa3850bb4fa10ff987cddfbc82eead3150" type="PLAIN_TEXT" />
       <mapping pattern="2016-09-21_add-column_menuitem-order.sql" type="PLAIN_TEXT" />
-      <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
-      <mapping ext="lnk" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
+      <mapping ext="lnk" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="reg" type="PLAIN_TEXT" />
+      <mapping ext="kml" type="XML" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
