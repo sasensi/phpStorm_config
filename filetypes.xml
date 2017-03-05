@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="bf5ffa3850bb4fa10ff987cddfbc82eead3150" type="PLAIN_TEXT" />
       <mapping pattern="2016-09-21_add-column_menuitem-order.sql" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
