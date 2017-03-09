@@ -15,6 +15,9 @@
   <action id="ActivateRemoteHostToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad4" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl numpad7" />
+  </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad5" />
   </action>
