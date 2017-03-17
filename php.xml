@@ -11,15 +11,15 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\wamp64\bin\php\php5.6.25\php.exe" id="e2ff1160-e387-4c29-ae58-2f2d36c195c1" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\wamp64\bin\php\php5.5.9\php.exe" id="e2ff1160-e387-4c29-ae58-2f2d36c195c1" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.6">
-        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php5.6.25\php-cgi.exe" php_cli="C:\wamp64\bin\php\php5.6.25\php.exe" path_separator=";" version="5.6.25">
+        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php5.5.9\php-cgi.exe" php_cli="C:\wamp64\bin\php\php5.5.9\php.exe" path_separator=";" version="5.5.9">
           <additional_php_ini />
-          <configuration_file>C:\wamp64\bin\php\php5.6.25\php.ini</configuration_file>
+          <configuration_file>C:\wamp64\bin\php\php5.5.9\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -75,7 +75,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="c:/wamp64/bin/php/php5.6.25/ext/" />
+            <configuration_option name="extension_dir" value="c:/wamp64/bin/php/php5.5.9/ext/" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -87,16 +87,14 @@
             <configuration_option name="highlight.keyword" value="#007700" />
             <configuration_option name="highlight.string" value="#DD0000" />
             <configuration_option name="html_errors" value="0" />
-            <configuration_option name="iconv.input_encoding" value="" />
-            <configuration_option name="iconv.internal_encoding" value="" />
-            <configuration_option name="iconv.output_encoding" value="" />
+            <configuration_option name="iconv.input_encoding" value="ISO-8859-1" />
+            <configuration_option name="iconv.internal_encoding" value="ISO-8859-1" />
+            <configuration_option name="iconv.output_encoding" value="ISO-8859-1" />
             <configuration_option name="ignore_repeated_errors" value="" />
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
             <configuration_option name="include_path" value=".;C:\php\pear" />
-            <configuration_option name="input_encoding" value="" />
-            <configuration_option name="internal_encoding" value="" />
             <configuration_option name="intl.default_locale" value="" />
             <configuration_option name="intl.error_level" value="0" />
             <configuration_option name="intl.use_exceptions" value="0" />
@@ -114,8 +112,8 @@
             <configuration_option name="mbstring.detect_order" value="" />
             <configuration_option name="mbstring.encoding_translation" value="0" />
             <configuration_option name="mbstring.func_overload" value="0" />
-            <configuration_option name="mbstring.http_input" value="" />
-            <configuration_option name="mbstring.http_output" value="" />
+            <configuration_option name="mbstring.http_input" value="pass" />
+            <configuration_option name="mbstring.http_output" value="pass" />
             <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
             <configuration_option name="mbstring.internal_encoding" value="" />
             <configuration_option name="mbstring.language" value="neutral" />
@@ -156,11 +154,9 @@
             <configuration_option name="mysqli.max_links" value="-1" />
             <configuration_option name="mysqli.max_persistent" value="-1" />
             <configuration_option name="mysqli.reconnect" value="" />
-            <configuration_option name="mysqli.rollback_on_cached_plink" value="0" />
             <configuration_option name="mysqlnd.collect_memory_statistics" value="1" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
-            <configuration_option name="mysqlnd.fetch_data_copy" value="0" />
             <configuration_option name="mysqlnd.log_mask" value="0" />
             <configuration_option name="mysqlnd.mempool_default_size" value="16000" />
             <configuration_option name="mysqlnd.net_cmd_buffer_size" value="4096" />
@@ -197,7 +193,7 @@
             <configuration_option name="opcache.max_wasted_percentage" value="5" />
             <configuration_option name="opcache.memory_consumption" value="64" />
             <configuration_option name="opcache.mmap_base" value="" />
-            <configuration_option name="opcache.optimization_level" value="0x7FFFBFFF" />
+            <configuration_option name="opcache.optimization_level" value="0xFFFFFFFF" />
             <configuration_option name="opcache.preferred_memory_model" value="" />
             <configuration_option name="opcache.protect_memory" value="0" />
             <configuration_option name="opcache.restrict_api" value="" />
@@ -207,10 +203,7 @@
             <configuration_option name="opcache.use_cwd" value="1" />
             <configuration_option name="opcache.validate_timestamps" value="1" />
             <configuration_option name="open_basedir" value="" />
-            <configuration_option name="openssl.cafile" value="" />
-            <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
-            <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
@@ -363,7 +356,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.1">
+            <debugger_info debugger="xdebug" debugger_version="2.5.1">
               <debug_extensions />
             </debugger_info>
           </debuggers>
