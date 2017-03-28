@@ -1,5 +1,5 @@
 <scheme name="custom" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
+  <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
@@ -54,7 +54,6 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="CLASS_NAME_ATTRIBUTES" baseAttributes="TEXT" />
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -388,7 +387,6 @@
         <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
-    <option name="DEFAULT_COMMA" baseAttributes="TEXT" />
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="ae81ff" />
@@ -431,7 +429,7 @@
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
-    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -477,7 +475,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_SEMICOLON" baseAttributes="TEXT" />
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -761,6 +758,11 @@
         <option name="BACKGROUND" value="273627" />
       </value>
     </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
+      </value>
+    </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
@@ -855,7 +857,6 @@
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value />
     </option>
-    <option name="LOCAL_VARIABLE_ATTRIBUTES" baseAttributes="TEXT" />
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -938,7 +939,6 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="PARAMETER_ATTRIBUTES" baseAttributes="TEXT" />
     <option name="PHP_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="f82672" />
