@@ -1,6 +1,6 @@
 <scheme name="custom" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="FONT_SCALE" value="1.25" />
+  <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
@@ -938,6 +938,9 @@
       <value>
         <option name="FOREGROUND" value="e6db74" />
       </value>
+    </option>
+    <option name="PHP_CONCATENATION">
+      <value />
     </option>
     <option name="PHP_HEREDOC_ID">
       <value>
