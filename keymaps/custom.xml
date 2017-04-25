@@ -30,6 +30,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Cmd.RunCmdShell">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -240,6 +243,7 @@
   <action id="PublishGroup.SyncLocalVsRemoteWith">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
+  <action id="PublishGroup.UploadTo" />
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction">
