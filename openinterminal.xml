@@ -1,0 +1,6 @@
+<application>
+  <component name="OpenInTerminalSettings">
+    <option name="terminalCommand" value="cmd /C start cmd.exe /K" />
+    <option name="terminalCommandOptions" value="cd /D" />
+  </component>
+</application>
