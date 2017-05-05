@@ -1,15 +1,15 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="File '[dev.chrono] - ...\signin\vendor\ycc\chrono\src\Ui\LiveResultTable.php'" />
-    <option name="defaultScopeName" value="File '[dev.chrono] - ...\signin\vendor\ycc\chrono\src\Ui\LiveResultTable.php'" />
+    <option name="customScope" value="File '...\test\liveResultTable\test.php'" />
+    <option name="defaultScopeName" value="File '...\test\liveResultTable\test.php'" />
     <option name="localCaseSensitive" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="File '[dev.chrono] - ...\signin\vendor\ycc\chrono\src\Ui\LiveResultTable.php'" />
+    <option name="SEARCH_SCOPE" value="File '...\test\liveResultTable\test.php'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
