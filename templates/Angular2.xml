@@ -3,4 +3,20 @@
     <variable name="APP" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="lowercaseAndDash(APP)" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="serv" value="private $service$: $Service$" description="constructor private service injection" toReformat="false" toShortenFQNames="true">
+    <variable name="Service" expression="" defaultValue="&quot;SomeService&quot;" alwaysStopAt="true" />
+    <variable name="service" expression="decapitalize(Service)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sub" value="this.$service$.$method$($arg$).subscribe($entity$ =&gt; this.$entity$ = $entity$);" description="subscribe to service method filling component field" toReformat="false" toShortenFQNames="true">
+    <variable name="service" expression="" defaultValue="&quot;service&quot;" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="&quot;getAll&quot;" alwaysStopAt="true" />
+    <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="entity" expression="" defaultValue="&quot;entity&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
