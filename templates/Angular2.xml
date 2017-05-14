@@ -19,4 +19,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="find" value="this.$array$.find($entity$ =&gt; $entity$.id === $input$)" description="find an item from id" toReformat="false" toShortenFQNames="true">
+    <variable name="array" expression="" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="entity" expression="" defaultValue="&quot;entity&quot;" alwaysStopAt="true" />
+    <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
