@@ -4,6 +4,7 @@
       <MessDetectorConfiguration />
     </phpmd_settings>
   </component>
+  <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="C:\wamp64\bin\php\php5.4.9\php.exe" id="e2ff1160-e387-4c29-ae58-2f2d36c195c1" name="PHP 5.6" debugger_id="php.debugger.XDebug" />

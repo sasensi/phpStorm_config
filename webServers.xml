@@ -18,7 +18,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="c574613b-cba2-4bf4-b43f-9e97f4ec0f49" name=".com" url="http://chrono.geofp.com">
-        <fileTransfer host="chrono.geofp.com" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
+        <fileTransfer host="chrono.geofp.com" port="22" rootFolder="/opt/data/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
