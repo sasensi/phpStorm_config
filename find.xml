@@ -8,6 +8,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.html" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -30,11 +31,11 @@
       <mask>*.css</mask>
       <mask>*.scss</mask>
       <mask>*.</mask>
-      <mask>*.h</mask>
       <mask>*.htrml</mask>
-      <mask>*.html</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>*.h</mask>
+      <mask>*.html</mask>
     </recentFileMasks>
   </component>
 </application>
