@@ -36,13 +36,13 @@
       <option name="PHP Expression" value="true" />
     </context>
   </template>
-  <template name="middleware" value="['uses' =&gt; $SELECTION$, 'middleware' =&gt; $auth$]" toReformat="false" toShortenFQNames="true">
+  <template name="middleware" value="['uses' =&gt; $SELECTION$, 'middleware' =&gt; $auth$]" description="" toReformat="false" toShortenFQNames="true">
     <variable name="auth" expression="enum(&quot;USER_AUTHENTICATION&quot;,&quot;BARMAN_AUTHENTICATION&quot;,&quot;MANAGER_AUTHENTICATION&quot;,&quot;ADMIN_AUTHENTICATION&quot;)" defaultValue="&quot;USER_AUTHENTICATION&quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="middleware_group" value="$app-&gt;group(['middleware' =&gt; $middleware$], function () use ($app)&#10;{&#10;   &#9;$SELECTION$&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name="middleware_group" value="$app-&gt;group(['middleware' =&gt; $middleware$], function () use ($app)&#10;{&#10;   &#9;$SELECTION$&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <variable name="middleware" expression="enum(&quot;USER_AUTHENTICATION&quot;,&quot;BARMAN_AUTHENTICATION&quot;,&quot;MANAGER_AUTHENTICATION&quot;,&quot;ADMIN_AUTHENTICATION&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
