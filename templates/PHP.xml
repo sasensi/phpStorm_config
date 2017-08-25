@@ -36,4 +36,10 @@
       <option name="PHP Expression" value="true" />
     </context>
   </template>
+  <template name="middleware" value="['uses' =&gt; $SELECTION$, 'middleware' =&gt; $auth$]" toReformat="false" toShortenFQNames="true">
+    <variable name="auth" expression="enum(&quot;USER_AUTHENTICATION&quot;,&quot;BARMAN_AUTHENTICATION&quot;,&quot;MANAGER_AUTHENTICATION&quot;,&quot;ADMIN_AUTHENTICATION&quot;)" defaultValue="&quot;USER_AUTHENTICATION&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
