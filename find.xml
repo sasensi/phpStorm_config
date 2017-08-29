@@ -1,14 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '[front] - ...\src'" />
-    <option name="defaultScopeName" value="Directory '[front] - ...\src'" />
-    <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="Directory '[front] - ...\src'" />
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.spec.ts" />
     <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
       <mask>*.js</mask>
       <mask>*.as</mask>
       <mask>*.mxml</mask>
@@ -34,6 +32,11 @@
       <mask>*.php</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>*.sts</mask>
+      <mask>*.spts</mask>
+      <mask>*.spets</mask>
+      <mask>*.spects</mask>
+      <mask>*.spec.ts</mask>
     </recentFileMasks>
   </component>
 </application>
