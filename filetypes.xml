@@ -26,6 +26,7 @@
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
       <mapping ext="kmz" type="PLAIN_TEXT" />
+      <mapping ext="aof" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
