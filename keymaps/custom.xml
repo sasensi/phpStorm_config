@@ -61,6 +61,7 @@
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
+  <action id="DatabaseView.OpenDdlInConsole" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.EvaluateInConsole">
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
@@ -162,7 +163,9 @@
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
-  <action id="GotoSuperMethod" />
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
   </action>
