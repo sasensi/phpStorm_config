@@ -48,7 +48,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ib" value="isset($SELECTION$) &amp;&amp; $SELECTION$" description="check if isset before condition" toReformat="false" toShortenFQNames="true">
+  <template name="orNull" value="($SELECTION$ ?? null)" description="variable or null" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
