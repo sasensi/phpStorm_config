@@ -53,4 +53,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="issetBefore" value="isset($SELECTION$) &amp;&amp; $SELECTION$" description="check if isset before existing condition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
