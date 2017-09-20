@@ -1,8 +1,8 @@
 <scheme name="custom" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.25" />
   <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="2d2e27" />
@@ -23,6 +23,9 @@
         <option name="FOREGROUND" value="f8f8f0" />
         <option name="BACKGROUND" value="f92672" />
       </value>
+    </option>
+    <option name="BASH.HERE_DOC">
+      <value />
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
