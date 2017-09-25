@@ -1762,4 +1762,9 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="08e38aac-3c04-48e2-9feb-3c933ebbe96f" load_method="PHPUNIT_PHAR" configuration_file_path="/var/www/html/local/phpunit/phpunit.xml" custom_loader_path="" phpunit_phar_path="/var/www/html/local/phpunit/phpunit.phar" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </application>
