@@ -1762,4 +1762,9 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="08e38aac-3c04-48e2-9feb-3c933ebbe96f" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/html/geofp/chrono/local/phpunit/phpunit.xml" custom_loader_path="/var/www/html/geofp/chrono/php-test/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </application>
