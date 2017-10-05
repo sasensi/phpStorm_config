@@ -11,8 +11,13 @@
       <interpreter home="C:\wamp64\bin\php\php5.6.16\php.exe" id="578e78ad-6720-4e79-9a47-9d57513ef3c6" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
       <interpreter home="C:\wamp64\bin\php\php7.0.10\php.exe" id="7a4795aa-3ccc-4bd9-9d4b-919936314eb4" name="PHP 7.0.0" debugger_id="php.debugger.XDebug" />
       <interpreter home="C:\wamp64\bin\php\php5.5.9\php.exe" id="05d73f98-b540-4d0a-a4a1-0bf6c1cc7b1d" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
-      <interpreter home="docker://yves/php:dev/php" id="08e38aac-3c04-48e2-9feb-3c933ebbe96f" name="yves/php:dev" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="yves/php:dev" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker-compose://[E:/workspace/chrono/docker-test/compose/web/docker-compose.test.yml]:php/php" id="08e38aac-3c04-48e2-9feb-3c933ebbe96f" name="yves/php:dev" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="php" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true">
+          <dockerComposeConfigurationPaths>
+            <item value="E:/workspace/chrono/docker-test/compose/web/docker-compose.test.yml" />
+          </dockerComposeConfigurationPaths>
+          <envs pass-parent-envs="false" />
+        </remote_data>
       </interpreter>
       <interpreter home="E:\workspace\chrono\docker.bat" id="4155e10a-26d7-4f6f-9b61-8c6e93fbd07a" name="PHP fake" debugger_id="php.debugger.XDebug" />
     </interpreters>
