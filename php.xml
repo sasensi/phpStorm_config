@@ -14,7 +14,7 @@
       <interpreter home="docker://yves/php:dev/php" id="08e38aac-3c04-48e2-9feb-3c933ebbe96f" name="yves/php:dev" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="yves/php:dev" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="E:\workspace\chrono\docker.sh" id="4155e10a-26d7-4f6f-9b61-8c6e93fbd07a" name="PHP fake" debugger_id="php.debugger.XDebug" />
+      <interpreter home="E:\workspace\chrono\docker.bat" id="4155e10a-26d7-4f6f-9b61-8c6e93fbd07a" name="PHP fake" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
