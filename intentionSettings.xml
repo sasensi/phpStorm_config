@@ -1,0 +1,25 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="HTML/Update background-image size" />
+    <ignoreAction name="JavaScript/Convert 'forEach' to 'for..of'" />
+    <ignoreAction name="JavaScript/Convert anonymous function to named function" />
+    <ignoreAction name="JavaScript/Convert arrow function to anonymous function" />
+    <ignoreAction name="JavaScript/Convert arrow function to shorthand arrow function" />
+    <ignoreAction name="JavaScript/Convert function and its member declarations to class" />
+    <ignoreAction name="JavaScript/Convert parameters to object" />
+    <ignoreAction name="JavaScript/Convert template string to use visible line separators" />
+    <ignoreAction name="JavaScript/Convert to forEach call on array" />
+    <ignoreAction name="JavaScript/Convert to multi-line string template" />
+    <ignoreAction name="JavaScript/Split declarations" />
+    <ignoreAction name="JavaScript/Swap method call arguments" />
+    <ignoreAction name="Javascript/Language Injection/Annotate injection with comment" />
+    <ignoreAction name="Javascript/Language Injection/Don't format injected content" />
+    <ignoreAction name="Other/Flip ','" />
+    <ignoreAction name="PHP/Add @property" />
+    <ignoreAction name="PHP/Convert array to short syntax" />
+    <ignoreAction name="PHP/Convert array to traditional syntax" />
+    <ignoreAction name="PHP/Convert namespace to braced" />
+    <ignoreAction name="PHP/Flip binary expression" />
+    <ignoreAction name="PHP/Flip if-else" />
+  </component>
+</application>
