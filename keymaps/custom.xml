@@ -23,6 +23,7 @@
   </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.AddUnversioned" />
+  <action id="ChooseRunConfiguration" />
   <action id="CloseActiveTab" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
@@ -280,8 +281,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -352,6 +352,7 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
