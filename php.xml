@@ -1,9 +1,4 @@
 <application>
-  <component name="MessDetector">
-    <phpmd_settings>
-      <MessDetectorConfiguration />
-    </phpmd_settings>
-  </component>
   <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpInterpreters">
     <interpreters>
@@ -1500,9 +1495,6 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
-  </component>
-  <component name="PhpSmartKeysConfiguration">
-    <option name="smartFunctionParametersCompletion" value="true" />
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
