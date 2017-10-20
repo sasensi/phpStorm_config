@@ -1498,7 +1498,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="f66c694d-6551-443b-ad17-ea567e5334c7" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/html/geofp/chrono/local/phpunit/phpunit.xml" custom_loader_path="/var/www/html/geofp/chrono/php-test/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="f66c694d-6551-443b-ad17-ea567e5334c7" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/html/geofp/local/phpunit/phpunit.xml" custom_loader_path="/var/www/html/geofp/chrono/php-test/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
