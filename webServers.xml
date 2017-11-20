@@ -17,22 +17,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="2f9ddeae-8685-4576-acf5-a06eda0b4b13" name="tracking3" url="http://tracking3.geofp.com">
-        <fileTransfer host="tracking3.geofp.com" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="144dd5f5-d8d5-41c6-9594-c05700755a20" name="new tracking" url="http://95.142.173.153">
-        <fileTransfer host="95.142.173.153" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
   </component>
 </application>
