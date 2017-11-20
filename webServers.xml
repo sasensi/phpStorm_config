@@ -17,6 +17,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="0690433e-494c-4061-9f54-4e8d85cfcd8b" name="new chrono.com custom" url="http://155.133.129.91">
+        <fileTransfer host="155.133.129.91" port="22" rootFolder="/opt/data/www/geofp/chrono/site/custom" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
