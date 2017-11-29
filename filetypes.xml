@@ -10,11 +10,11 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
       <mapping pattern="KeyTable" type="PLAIN_TEXT" />
-      <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
       <mapping pattern="bf5ffa3850bb4fa10ff987cddfbc82eead3150" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
+      <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="secret" type="PLAIN_TEXT" />
