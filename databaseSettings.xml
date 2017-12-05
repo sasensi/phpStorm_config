@@ -1,18 +1,33 @@
 <application>
-  <component name="DatabaseSettings">
+  <component name="DatabaseSettings" version="2">
     <option name="execute-inside-option" value="5" />
+    <option name="execute-outside-option" value="2" />
+    <option name="execute-selection-option" value="3" />
+    <option name="ddl-editor-confirm-loss" value="false" />
+    <exec-options>
+      <exec-option exec-inside="5" exec-outside="2" exec-selection="3" />
+      <exec-option />
+      <exec-option />
+    </exec-options>
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="?\d+" />
-        <parameter-pattern value=":(\w+)" />
-        <parameter-pattern value="%\w+" scope="JAVA" />
+        <parameter-pattern value=":(\w+)" scope="*,-PostgreSQL,-Redshift,-Oracle,-OracleSqlPlus,-SQLite" predefined="true" />
+        <parameter-pattern value="%\w+" scope="JAVA" predefined="true" />
         <parameter-pattern value="$\{[^$\{\}]*\}" />
         <parameter-pattern value="$\w+$" />
-        <parameter-pattern value="#(\w+)#" scope="XML" />
+        <parameter-pattern value="#(\w+)#" scope="XML" predefined="true" />
+        <parameter-pattern value="\?(\d+)" in-scripts="false" in-literals="false" />
+        <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="false" in-literals="false" />
+        <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="false" in-literals="false" />
+        <parameter-pattern value="\$(\w+)\$" in-scripts="false" in-literals="false" scope="*,-PostgreSQL,-Redshift" predefined="true" />
+        <parameter-pattern value="(?&lt;=\W|\A)\$(\d+|[a-zA-Z_](?:\w|\.)*)\$?(?=\W|\z)" in-scripts="false" in-literals="false" scope="*,-SQL" predefined="true" />
+        <parameter-pattern value="(?&lt;=\W|\A)#(\d+|[a-zA-Z_](?:\w|\.)*)#?(?=\W|\z)" in-scripts="false" in-literals="false" scope="*,-SQL" predefined="true" />
+        <parameter-pattern value="%\((\w+)\)s" in-scripts="false" in-literals="false" scope="Python" predefined="true" />
       </parameter-patterns>
     </text-mode>
     <csv-formats>
-      <csv-format name="Tab Separated Values (TSV)">
+      <csv-format name="Tab Separated Values (TSV)" id="4eda76ff-7d0d-434a-97a2-2ff23eb5b44e">
         <data>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
             <quotation>
@@ -22,7 +37,7 @@
           </record-format>
         </data>
       </csv-format>
-      <csv-format name="Comma Separated Values (CSV)">
+      <csv-format name="Comma Separated Values (CSV)" id="f84adb22-f69a-4745-9517-580c6b6eee1f">
         <data>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
             <quotation>

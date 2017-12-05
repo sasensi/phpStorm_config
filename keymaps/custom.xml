@@ -52,6 +52,10 @@
   <action id="Console.Jdbc.Execute.Selection">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
+  <action id="Console.Open">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl numpad8" />
+  </action>
   <action id="Console.TableResult.ColumnSortReset" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
