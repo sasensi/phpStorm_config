@@ -182,6 +182,9 @@
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="ImplementMethods" />
+  <action id="Jdbc.OpenConsole.New.Generate">
+    <keyboard-shortcut first-keystroke="ctrl numpad9" />
+  </action>
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
