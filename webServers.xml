@@ -1,7 +1,15 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e0c2a3ff-86d9-4390-82ca-6344cc3fc20e" name=".net" url="http://chrono.geofp.net">
+      <webServer id="144dd5f5-d8d5-41c6-9594-c05700755a20" name="new tracking" url="http://95.142.173.153">
+        <fileTransfer host="95.142.173.153" port="22" rootFolder="/opt/data/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e0c2a3ff-86d9-4390-82ca-6344cc3fc20e" name="chrono.net" url="http://chrono.geofp.net">
         <fileTransfer host="chrono.geofp.net" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
@@ -9,23 +17,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="e39c1ac4-23fa-4926-ac3b-b3eefa856d11" name=".net root" url="http://chrono.geofp.net">
-        <fileTransfer host="chrono.geofp.net" port="22" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="c574613b-cba2-4bf4-b43f-9e97f4ec0f49" name=".com" url="http://chrono.geofp.com">
-        <fileTransfer host="chrono.geofp.com" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="949f1edd-795f-48b6-889a-fbba72e46eb3" name="new .com" url="http://155.133.129.91">
+      <webServer id="949f1edd-795f-48b6-889a-fbba72e46eb3" name="new chrono.com" url="http://155.133.129.91">
         <fileTransfer host="155.133.129.91" port="22" rootFolder="/opt/data/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
@@ -33,8 +25,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="2f9ddeae-8685-4576-acf5-a06eda0b4b13" name="tracking3" url="http://tracking3.geofp.com">
-        <fileTransfer host="tracking3.geofp.com" port="22" rootFolder="/opt/data/www/geofp/tracking" accessType="SFTP">
+      <webServer id="0690433e-494c-4061-9f54-4e8d85cfcd8b" name="new chrono.com custom" url="http://155.133.129.91">
+        <fileTransfer host="155.133.129.91" port="22" rootFolder="/opt/data/www/geofp/chrono/site/custom" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

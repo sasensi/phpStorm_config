@@ -23,6 +23,7 @@
   </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.AddUnversioned" />
+  <action id="ChooseRunConfiguration" />
   <action id="CloseActiveTab" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
@@ -50,6 +51,10 @@
   </action>
   <action id="Console.Jdbc.Execute.Selection">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="Console.Open">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl numpad8" />
   </action>
   <action id="Console.TableResult.ColumnSortReset" />
   <action id="Console.TableResult.EditValue">
@@ -106,6 +111,9 @@
   </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
@@ -134,9 +142,7 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
+  <action id="FindNext" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
@@ -176,6 +182,9 @@
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="ImplementMethods" />
+  <action id="Jdbc.OpenConsole.New.Generate">
+    <keyboard-shortcut first-keystroke="ctrl numpad9" />
+  </action>
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -280,8 +289,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -348,10 +356,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl exclamation_mark" />
   </action>
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
