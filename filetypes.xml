@@ -3,50 +3,51 @@
     <extensionMap>
       <mapping ext="dockerfile" type="Dockerfile" />
       <mapping ext="czml" type="JSON" />
-      <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="2016-09-21_add-column_menuitem-order.sql" type="PLAIN_TEXT" />
-      <mapping pattern="preCalculatedRace_145" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
       <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
+      <mapping pattern="hostname" type="PLAIN_TEXT" />
       <mapping pattern=".bashrc" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="KeyTable" type="PLAIN_TEXT" />
+      <mapping pattern="db_backup" type="PLAIN_TEXT" />
       <mapping pattern="SigningTable" type="PLAIN_TEXT" />
+      <mapping pattern="secret" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern="bf5ffa3850bb4fa10ff987cddfbc82eead3150" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="secret" type="PLAIN_TEXT" />
-      <mapping pattern="db_backup" type="PLAIN_TEXT" />
+      <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
+      <mapping pattern="preCalculatedRace_145" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
-      <mapping ext="ad" type="PLAIN_TEXT" />
       <mapping ext="bz2" type="PLAIN_TEXT" />
       <mapping ext="private" type="PLAIN_TEXT" />
-      <mapping ext="params" type="PLAIN_TEXT" />
+      <mapping ext="ad" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="ldif" type="PLAIN_TEXT" />
-      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
       <mapping ext="reg" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
       <mapping ext="kmz" type="PLAIN_TEXT" />
       <mapping ext="aof" type="PLAIN_TEXT" />
       <mapping ext="vcl" type="PLAIN_TEXT" />
       <mapping ext="beautified" type="PLAIN_TEXT" />
+      <mapping ext="params" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
-      <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="kml" type="XML" />
