@@ -63,6 +63,8 @@
   <action id="Console.TableResult.NavigateAction">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
@@ -88,6 +90,12 @@
   </action>
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -238,6 +246,7 @@
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="NextEditorTab" />
+  <action id="NextOccurence" />
   <action id="NextTab" />
   <action id="OpenInBrowser">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
@@ -254,6 +263,7 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="PreviousEditorTab" />
+  <action id="PreviousOccurence" />
   <action id="PreviousTab" />
   <action id="PublishGroup.SyncLocalVsRemoteWith">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
