@@ -42,14 +42,20 @@
     <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
     <option name="ALIGN_ASSIGNMENTS" value="true" />
     <option name="CONCAT_SPACES" value="false" />
+    <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
+    <option name="ELSE_IF_STYLE" value="COMBINE" />
+    <option name="FIELDS_DEFAULT_VISIBILITY" value="protected" />
+    <option name="VARIABLE_NAMING_STYLE" value="CAMEL_CASE" />
     <option name="SPACES_AROUND_VAR_WITHIN_BRACKETS" value="true" />
     <option name="ALIGN_CLASS_CONSTANTS" value="true" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
-    <option name="PHPDOC_USE_FQCN" value="true" />
+    <option name="SPACE_AROUND_ASSIGNMENT_IN_DECLARE" value="true" />
     <option name="NAMESPACE_BRACE_STYLE" value="2" />
+    <option name="IF_LPAREN_ON_NEXT_LINE" value="true" />
+    <option name="IF_RPAREN_ON_NEXT_LINE" value="true" />
   </PHPCodeStyleSettings>
   <SqlCodeStyleSettings>
     <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
@@ -121,6 +127,7 @@
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+    <option name="IF_BRACE_FORCE" value="1" />
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
       <option name="SMART_TABS" value="true" />
