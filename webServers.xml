@@ -41,6 +41,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="3fe0774e-483e-4bb4-87e0-94fc73b0a13a" name="clone1" url="http://chrono.clone1.geofp.com">
+        <fileTransfer host="155.133.130.24" port="22" rootFolder="/opt/data/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
