@@ -239,6 +239,9 @@
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
