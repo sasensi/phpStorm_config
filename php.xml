@@ -3,7 +3,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="C:\wamp64\bin\php\php5.6.16\php.exe" id="578e78ad-6720-4e79-9a47-9d57513ef3c6" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\wamp64\bin\php\php7.0.10\php.exe" id="7a4795aa-3ccc-4bd9-9d4b-919936314eb4" name="PHP 7.0.0" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\wamp64\bin\php\php7.0.0\php.exe" id="7a4795aa-3ccc-4bd9-9d4b-919936314eb4" name="PHP 7.0.0" debugger_id="php.debugger.XDebug" />
       <interpreter home="C:\wamp64\bin\php\php5.5.9\php.exe" id="05d73f98-b540-4d0a-a4a1-0bf6c1cc7b1d" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
       <interpreter home="docker://yves/php:dev/php" id="f66c694d-6551-443b-ad17-ea567e5334c7" name="Docker PHP" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="yves/php:dev" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
@@ -421,9 +421,9 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 7.0.0">
-        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php7.0.10\php-cgi.exe" php_cli="C:\wamp64\bin\php\php7.0.10\php.exe" path_separator=";" version="7.0.10">
+        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php7.0.0\php-cgi.exe" php_cli="C:\wamp64\bin\php\php7.0.0\php.exe" path_separator=";" version="7.0.0">
           <additional_php_ini />
-          <configuration_file>C:\wamp64\bin\php\php7.0.10\php.ini</configuration_file>
+          <configuration_file>C:\wamp64\bin\php\php7.0.0\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -461,7 +461,7 @@
             <configuration_option name="enable_dl" value="" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
-            <configuration_option name="error_log" value="c:/wamp64/logs/php_error.log" />
+            <configuration_option name="error_log" value="C:/wamp64/logs/php_error.log" />
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="32767" />
             <configuration_option name="exif.decode_jis_intel" value="JIS" />
@@ -472,7 +472,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="c:/wamp64/bin/php/php7.0.10/ext/" />
+            <configuration_option name="extension_dir" value="C:/wamp64/bin/php/php7.0.0/ext/" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -585,7 +585,7 @@
             <configuration_option name="session.name" value="PHPSESSID" />
             <configuration_option name="session.referer_check" value="" />
             <configuration_option name="session.save_handler" value="files" />
-            <configuration_option name="session.save_path" value="c:/wamp64/tmp" />
+            <configuration_option name="session.save_path" value="C:/wamp64/tmp" />
             <configuration_option name="session.serialize_handler" value="php" />
             <configuration_option name="session.upload_progress.cleanup" value="1" />
             <configuration_option name="session.upload_progress.enabled" value="1" />
@@ -600,7 +600,7 @@
             <configuration_option name="short_open_tag" value="" />
             <configuration_option name="smtp_port" value="25" />
             <configuration_option name="soap.wsdl_cache" value="1" />
-            <configuration_option name="soap.wsdl_cache_dir" value="c:/wamp64/tmp" />
+            <configuration_option name="soap.wsdl_cache_dir" value="C:/wamp64/tmp" />
             <configuration_option name="soap.wsdl_cache_enabled" value="1" />
             <configuration_option name="soap.wsdl_cache_limit" value="5" />
             <configuration_option name="soap.wsdl_cache_ttl" value="86400" />
@@ -610,7 +610,7 @@
             <configuration_option name="track_errors" value="1" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
-            <configuration_option name="upload_tmp_dir" value="c:/wamp64/tmp" />
+            <configuration_option name="upload_tmp_dir" value="C:/wamp64/tmp" />
             <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
             <configuration_option name="user_agent" value="" />
             <configuration_option name="user_dir" value="" />
@@ -643,16 +643,16 @@
             <configuration_option name="xdebug.force_display_errors" value="0" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="PHPSTORM" />
+            <configuration_option name="xdebug.idekey" value="" />
             <configuration_option name="xdebug.max_nesting_level" value="256" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
             <configuration_option name="xdebug.profiler_aggregate" value="0" />
             <configuration_option name="xdebug.profiler_append" value="0" />
-            <configuration_option name="xdebug.profiler_enable" value="0" />
-            <configuration_option name="xdebug.profiler_enable_trigger" value="1" />
+            <configuration_option name="xdebug.profiler_enable" value="" />
+            <configuration_option name="xdebug.profiler_enable_trigger" value="" />
             <configuration_option name="xdebug.profiler_enable_trigger_value" value="" />
-            <configuration_option name="xdebug.profiler_output_dir" value="E:/workspace/chrono/local/profile_output" />
+            <configuration_option name="xdebug.profiler_output_dir" value="C:/wamp64/tmp" />
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%t.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
             <configuration_option name="xdebug.remote_autostart" value="0" />
@@ -660,23 +660,23 @@
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="127.0.0.1" />
+            <configuration_option name="xdebug.remote_host" value="localhost" />
             <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
             <configuration_option name="xdebug.scream" value="0" />
             <configuration_option name="xdebug.show_error_trace" value="0" />
             <configuration_option name="xdebug.show_exception_trace" value="0" />
-            <configuration_option name="xdebug.show_local_vars" value="0" />
+            <configuration_option name="xdebug.show_local_vars" value="1" />
             <configuration_option name="xdebug.show_mem_delta" value="0" />
             <configuration_option name="xdebug.trace_enable_trigger" value="0" />
             <configuration_option name="xdebug.trace_enable_trigger_value" value="" />
             <configuration_option name="xdebug.trace_format" value="0" />
             <configuration_option name="xdebug.trace_options" value="0" />
-            <configuration_option name="xdebug.trace_output_dir" value="C:\Windows\Temp" />
+            <configuration_option name="xdebug.trace_output_dir" value="/tmp" />
             <configuration_option name="xdebug.trace_output_name" value="trace.%c" />
             <configuration_option name="xdebug.var_display_max_children" value="128" />
-            <configuration_option name="xdebug.var_display_max_data" value="2048" />
+            <configuration_option name="xdebug.var_display_max_data" value="512" />
             <configuration_option name="xdebug.var_display_max_depth" value="3" />
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
@@ -690,7 +690,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.1">
+            <debugger_info debugger="xdebug" debugger_version="2.4.0RC2">
               <debug_extensions />
             </debugger_info>
           </debuggers>
