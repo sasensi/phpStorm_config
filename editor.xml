@@ -1,8 +1,4 @@
 <application>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="15" />
-    <option name="FONT_SCALE" value="1.25" />
-  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -33,7 +29,11 @@
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
-    <pattern pattern="\bdebug\b.*" />
+    <pattern useCustomColors="true" pattern="// debug">
+      <option name="FOREGROUND" value="0" />
+      <option name="BACKGROUND" value="ff3d64" />
+      <option name="FONT_TYPE" value="3" />
+    </pattern>
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssColorPreviewInGutter" value="false" />
