@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="dockerfile" type="Dockerfile" />
       <mapping ext="czml" type="JSON" />
+      <mapping pattern="bench-reference" type="PLAIN_TEXT" />
       <mapping pattern="hostname" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
@@ -26,6 +27,7 @@
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_5528_teams" type="PLAIN_TEXT" />
+      <mapping pattern="DockerFile" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
