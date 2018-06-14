@@ -62,6 +62,7 @@
     <option name="ALIGN_INSIDE_QUERY_EXPRESSION" value="false" />
     <option name="NEW_LINE_AFTER_SELECT_2" value="2" />
     <option name="NEW_LINE_AFTER_SELECT_ITEM" value="false" />
+    <option name="KEYWORD_CASE" value="0" />
     <option name="TYPE_CASE" value="0" />
     <option name="IDENTIFIER_CASE" value="1" />
     <option name="QUOTED_IDENTIFIER_CASE" value="1" />
