@@ -49,7 +49,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="be07485b-2c49-46d4-94d0-0794a9fe464f" name="db1" url="http://155.133.130.73">
+      <webServer id="be07485b-2c49-46d4-94d0-0794a9fe464f" name="db" url="http://155.133.130.73">
         <fileTransfer host="155.133.130.73" port="22" rootFolder="/opt/data/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
