@@ -216,12 +216,18 @@
   <action id="Macro.comment title">
     <keyboard-shortcut first-keystroke="shift ctrl alt colon" />
   </action>
+  <action id="Macro.comment_title">
+    <keyboard-shortcut first-keystroke="shift ctrl alt colon" />
+  </action>
   <action id="Macro.endline semicolon">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
   <action id="Macro.php echo in HTML">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+  </action>
+  <action id="Macro.semicolon_eol">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="Macro.singleQuote_insertInString">
     <keyboard-shortcut first-keystroke="ctrl 4" />
