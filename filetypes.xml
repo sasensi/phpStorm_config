@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="dockerfile" type="Dockerfile" />
       <mapping ext="czml" type="JSON" />
+      <mapping ext="indd" type="Native" />
       <mapping pattern="bench-reference" type="PLAIN_TEXT" />
       <mapping pattern="FIRST_INSTALL" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
