@@ -31,7 +31,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="CollapseRegion" />
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -133,14 +135,14 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
-  <action id="ExpandAll">
-    <keyboard-shortcut first-keystroke="ctrl equals" />
-  </action>
-  <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  <action id="ExpandAll" />
+  <action id="ExpandAllRegions" />
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="ctrl equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
@@ -187,9 +189,7 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
   </action>
-  <action id="Images.Editor.ZoomIn">
-    <keyboard-shortcut first-keystroke="ctrl equals" />
-  </action>
+  <action id="Images.Editor.ZoomIn" />
   <action id="ImplementMethods" />
   <action id="Jdbc.OpenConsole.New.Generate">
     <keyboard-shortcut first-keystroke="ctrl numpad9" />
@@ -371,6 +371,7 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="UML.ApplyCurrentLayout" />
+  <action id="UML.ZoomIn" />
   <action id="Uml.ShowDiff" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift ctrl exclamation_mark" />
