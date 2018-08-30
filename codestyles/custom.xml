@@ -23,8 +23,8 @@
     <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
     <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,input,span,i" />
     <option name="HTML_KEEP_WHITESPACES_INSIDE" value="pre,textarea" />
-    <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,br,cite,cite,code,dfn,em,font,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var" />
-    <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="" />
+    <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,br,cite,cite,code,dfn,em,font,kbd,q,s,samp,strike,strong,sub,sup,tt,u,var,a" />
+    <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="a" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="ALIGN_OBJECT_PROPERTIES" value="2" />
@@ -57,15 +57,29 @@
     <option name="IF_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="IF_RPAREN_ON_NEXT_LINE" value="true" />
   </PHPCodeStyleSettings>
-  <SqlCodeStyleSettings>
-    <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
-    <option name="ALIGN_INSIDE_QUERY_EXPRESSION" value="false" />
-    <option name="NEW_LINE_AFTER_SELECT_2" value="2" />
-    <option name="NEW_LINE_AFTER_SELECT_ITEM" value="false" />
+  <SqlCodeStyleSettings version="0">
+    <option name="myVersion" value="0" />
+    <option name="ALIAS_CASE" value="4" />
     <option name="KEYWORD_CASE" value="0" />
     <option name="TYPE_CASE" value="0" />
     <option name="IDENTIFIER_CASE" value="1" />
     <option name="QUOTED_IDENTIFIER_CASE" value="1" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="WITH_EL_WRAP" value="0" />
+    <option name="WITH_EL_COMMA" value="0" />
+    <option name="SELECT_EL_WRAP" value="3" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_WRAP" value="2" />
+    <option name="WHERE_EL_WRAP" value="3" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+    <option name="EXPR_CASE_THEN_WRAP" value="true" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
+    <option name="ALIGN_INSIDE_QUERY_EXPRESSION" value="false" />
+    <option name="NEW_LINE_AFTER_SELECT_ITEM" value="false" />
   </SqlCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
@@ -90,7 +104,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
-    <option name="RIGHT_MARGIN" value="120" />
+    <option name="RIGHT_MARGIN" value="500" />
     <option name="WRAP_ON_TYPING" value="0" />
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">

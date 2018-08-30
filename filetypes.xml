@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="dockerfile" type="Dockerfile" />
       <mapping ext="czml" type="JSON" />
+      <mapping ext="indd" type="Native" />
       <mapping pattern="bench-reference" type="PLAIN_TEXT" />
       <mapping pattern="FIRST_INSTALL" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
@@ -18,6 +19,7 @@
       <mapping pattern=".bashrc" type="PLAIN_TEXT" />
       <mapping pattern="cronjobs" type="PLAIN_TEXT" />
       <mapping pattern="secret" type="PLAIN_TEXT" />
+      <mapping pattern=".md5sums" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="KeyTable" type="PLAIN_TEXT" />
       <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
@@ -32,34 +34,33 @@
       <mapping pattern="preCalculatedRace_5528_teams" type="PLAIN_TEXT" />
       <mapping pattern="db_backup" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
+      <mapping ext="ad" type="PLAIN_TEXT" />
+      <mapping ext="bz2" type="PLAIN_TEXT" />
+      <mapping ext="private" type="PLAIN_TEXT" />
+      <mapping ext="params" type="PLAIN_TEXT" />
+      <mapping ext="keystore" type="PLAIN_TEXT" />
+      <mapping ext="otf" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="ldif" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="lnk" type="PLAIN_TEXT" />
+      <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="reg" type="PLAIN_TEXT" />
+      <mapping ext="list" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
-      <mapping ext="ldif" type="PLAIN_TEXT" />
-      <mapping ext="aof" type="PLAIN_TEXT" />
-      <mapping ext="mo" type="PLAIN_TEXT" />
-      <mapping ext="otf" type="PLAIN_TEXT" />
-      <mapping ext="bz2" type="PLAIN_TEXT" />
-      <mapping ext="lnk" type="PLAIN_TEXT" />
-      <mapping ext="params" type="PLAIN_TEXT" />
-      <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="kmz" type="PLAIN_TEXT" />
-      <mapping ext="eot" type="PLAIN_TEXT" />
-      <mapping ext="woff" type="PLAIN_TEXT" />
-      <mapping ext="gz" type="PLAIN_TEXT" />
-      <mapping ext="properties" type="PLAIN_TEXT" />
-      <mapping ext="sherlocks" type="PLAIN_TEXT" />
+      <mapping ext="aof" type="PLAIN_TEXT" />
       <mapping ext="beautified" type="PLAIN_TEXT" />
-      <mapping ext="keystore" type="PLAIN_TEXT" />
-      <mapping ext="ad" type="PLAIN_TEXT" />
-      <mapping ext="private" type="PLAIN_TEXT" />
-      <mapping ext="ttf" type="PLAIN_TEXT" />
-      <mapping ext="reg" type="PLAIN_TEXT" />
-      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="sherlocks" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="properties" type="PLAIN_TEXT" />
+      <mapping ext="gz" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
-      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="kml" type="XML" />
-      <mapping pattern="*nginx.conf" type="nginx file type" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
@@ -70,6 +71,7 @@
       <mapping ext="tps" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="*nginx.conf" type="nginx file type" />
     </extensionMap>
   </component>
 </application>

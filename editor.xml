@@ -12,7 +12,6 @@
     <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
     <pattern useCustomColors="true" pattern="// debug">
       <option name="FOREGROUND" value="0" />
