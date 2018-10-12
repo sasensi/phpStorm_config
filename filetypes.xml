@@ -8,7 +8,6 @@
       <mapping pattern="FIRST_INSTALL" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
       <mapping pattern="DockerFile" type="PLAIN_TEXT" />
-      <mapping pattern=".env.example.docker" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="2016-09-21_add-column_menuitem-order.sql" type="PLAIN_TEXT" />
@@ -24,18 +23,20 @@
       <mapping pattern=".md5sums" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="KeyTable" type="PLAIN_TEXT" />
-      <mapping pattern="db_backup" type="PLAIN_TEXT" />
       <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="ENABLE_INSTALL_TOO" type="PLAIN_TEXT" />
       <mapping pattern="SigningTable" type="PLAIN_TEXT" />
       <mapping pattern="bf5ffa3850bb4fa10ff987cddfbc82eead3150" type="PLAIN_TEXT" />
-      <mapping pattern="pathfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example.docker" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_145" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_5528_teams" type="PLAIN_TEXT" />
+      <mapping pattern="db_backup" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
+      <mapping pattern=".token" type="PLAIN_TEXT" />
       <mapping ext="ad" type="PLAIN_TEXT" />
       <mapping ext="bz2" type="PLAIN_TEXT" />
       <mapping ext="private" type="PLAIN_TEXT" />
