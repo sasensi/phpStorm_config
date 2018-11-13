@@ -21,6 +21,9 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad5" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChooseRunConfiguration" />
