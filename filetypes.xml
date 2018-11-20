@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="dockerfile" type="Dockerfile" />
+      <mapping pattern="mustache" type="Handlebars/Mustache" />
       <mapping ext="czml" type="JSON" />
       <mapping ext="indd" type="Native" />
       <mapping pattern="bench-reference" type="PLAIN_TEXT" />
@@ -23,6 +24,7 @@
       <mapping pattern=".md5sums" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="KeyTable" type="PLAIN_TEXT" />
+      <mapping pattern="db_backup" type="PLAIN_TEXT" />
       <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="ENABLE_INSTALL_TOO" type="PLAIN_TEXT" />
@@ -34,7 +36,6 @@
       <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_145" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_5528_teams" type="PLAIN_TEXT" />
-      <mapping pattern="db_backup" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
       <mapping pattern=".token" type="PLAIN_TEXT" />
       <mapping ext="ad" type="PLAIN_TEXT" />
@@ -46,7 +47,9 @@
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="ldif" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="kmz" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
+      <mapping ext="pre" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="reg" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
@@ -54,13 +57,13 @@
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
-      <mapping ext="kmz" type="PLAIN_TEXT" />
       <mapping ext="aof" type="PLAIN_TEXT" />
       <mapping ext="beautified" type="PLAIN_TEXT" />
       <mapping ext="sherlocks" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
+      <mapping ext="post" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="kml" type="XML" />
