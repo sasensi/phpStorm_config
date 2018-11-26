@@ -19,7 +19,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="text" value="new PointText({&#10;    content: '$MESSAGE$',&#10;    point: view.center + [0, -50],&#10;    justification: 'center'&#10;});" description="Draw a PointText" toReformat="false" toShortenFQNames="true">
+  <template name="text" value="new PointText({&#10;    content: '$MESSAGE$',&#10;    point: view.center + [0, -80],&#10;    justification: 'center'&#10;});" description="Draw a PointText" toReformat="false" toShortenFQNames="true">
     <variable name="MESSAGE" expression="" defaultValue="&quot;Say something&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
