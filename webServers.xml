@@ -1,84 +1,12 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="144dd5f5-d8d5-41c6-9594-c05700755a20" name="new tracking" url="http://95.142.173.153">
-        <fileTransfer host="95.142.173.153" port="22" rootFolder="/opt/data/" accessType="SFTP">
+      <webServer id="da30ed15-0e2b-4113-b553-fab1c17ded6d" name="samuelasensi.com" url="http://samuelasensi.com">
+        <fileTransfer host="ftp.samuelasensi.com" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="e0c2a3ff-86d9-4390-82ca-6344cc3fc20e" name="chrono.net" url="http://chrono.geofp.net">
-        <fileTransfer host="chrono.geofp.net" port="22" rootFolder="/opt/data/www/geofp/chrono" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="949f1edd-795f-48b6-889a-fbba72e46eb3" name="new chrono.com" url="http://155.133.129.91">
-        <fileTransfer host="155.133.129.91" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="0690433e-494c-4061-9f54-4e8d85cfcd8b" name="new chrono.com custom" url="http://155.133.129.91">
-        <fileTransfer host="155.133.129.91" port="22" rootFolder="/opt/data/www/geofp/chrono/site/custom" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="b6404fe6-620b-4102-8ebd-038119ce93b4" name="test" url="http://95.142.172.228">
-        <fileTransfer host="95.142.172.228" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="3fe0774e-483e-4bb4-87e0-94fc73b0a13a" name="clone1" url="http://chrono.clone1.geofp.com">
-        <fileTransfer host="155.133.130.24" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="be07485b-2c49-46d4-94d0-0794a9fe464f" name="db" url="http://155.133.130.73">
-        <fileTransfer host="155.133.130.73" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="3839274c-5d9f-45cb-8223-0e1e9db291ca" name="clone2" url="http://chrono.clone1.geofp.com">
-        <fileTransfer host="155.133.129.68" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="2dfcf5a2-6e95-4eb4-a3ce-767d3894737c" name="clone3" url="http://chrono.clone1.geofp.com">
-        <fileTransfer host="155.133.129.220" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="1e5b6fa1-078a-4126-9410-5d8c9ab60cfe" name="clone4" url="http://chrono.clone1.geofp.com">
-        <fileTransfer host="155.133.129.213" port="22" rootFolder="/opt/data/" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>
