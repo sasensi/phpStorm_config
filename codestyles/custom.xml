@@ -134,6 +134,7 @@
     <option name="ELSE_ON_NEW_LINE" value="true" />
     <option name="CATCH_ON_NEW_LINE" value="true" />
     <option name="FINALLY_ON_NEW_LINE" value="true" />
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_WITHIN_BRACKETS" value="true" />
