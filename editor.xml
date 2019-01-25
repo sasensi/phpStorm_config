@@ -18,5 +18,6 @@
       <option name="BACKGROUND" value="ff3d64" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
+    <pattern pattern="\btodo\b.*" />
   </component>
 </application>
