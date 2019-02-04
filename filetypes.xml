@@ -62,6 +62,7 @@
       <mapping ext="sherlocks" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
+      <mapping ext="9787" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="post" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
