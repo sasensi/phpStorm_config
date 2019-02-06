@@ -62,6 +62,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="ctrl numpad8" />
   </action>
+  <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.ColumnSortReset" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -80,7 +81,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
   </action>
   <action id="Diagram.DeselectAll" />
-  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="DomCollectionControl.Edit">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -374,6 +377,7 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="UML.ApplyCurrentLayout" />
+  <action id="UML.ShowChanges" />
   <action id="UML.ZoomIn" />
   <action id="Uml.ShowDiff" />
   <action id="Unsplit">
