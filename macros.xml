@@ -15,5 +15,9 @@
     <macro name="arrow">
       <typing text-keycode="54:0;153:1">-&gt;</typing>
     </macro>
+    <macro name="debugger;">
+      <action id="EditorStartNewLineBefore" />
+      <typing text-keycode="68:0;69:0;66:0;85:0;71:0;71:0;69:0;82:0;59:0">debugger;</typing>
+    </macro>
   </component>
 </application>

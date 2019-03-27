@@ -226,6 +226,9 @@
   <action id="Macro.comment_title">
     <keyboard-shortcut first-keystroke="shift ctrl alt colon" />
   </action>
+  <action id="Macro.debugger;">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="Macro.endline semicolon">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <keyboard-shortcut first-keystroke="ctrl period" />
@@ -271,6 +274,7 @@
   <action id="OpenInTerminal.open.current">
     <keyboard-shortcut first-keystroke="shift ctrl alt x" />
   </action>
+  <action id="OverrideMethods" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
