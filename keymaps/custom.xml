@@ -81,6 +81,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
   </action>
   <action id="Diagram.DeselectAll" />
+  <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="shift ctrl alt d" />
   </action>
@@ -292,6 +293,10 @@
   <action id="PublishGroup.UploadTo" />
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
@@ -370,6 +375,9 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt f12" />
