@@ -10,7 +10,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="sub" value="this.$service$.$method$($arg$).subscribe($entity$ =&gt; this.$entity$ = $entity$);" description="subscribe to service method filling component field" toReformat="false" toShortenFQNames="true">
+  <template name="sub" value="this.$service$.$method$($arg$).subscribe(_ =&gt; this.$entity$ = _);" description="subscribe to service method filling component field" toReformat="false" toShortenFQNames="true">
     <variable name="service" expression="" defaultValue="&quot;service&quot;" alwaysStopAt="true" />
     <variable name="method" expression="" defaultValue="&quot;getAll&quot;" alwaysStopAt="true" />
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
