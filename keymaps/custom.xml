@@ -392,7 +392,7 @@
   <action id="UML.ShowChanges" />
   <action id="UML.ZoomIn" />
   <action id="Uml.ShowDiff" />
-  <action id="Unsplit">
+  <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift ctrl exclamation_mark" />
   </action>
   <action id="UsageView.ShowRecentFindUsages" />
