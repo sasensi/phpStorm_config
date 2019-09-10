@@ -11,11 +11,13 @@
     <option name="FILESTATUS_ADDED" value="bc500" />
     <option name="FILESTATUS_MODIFIED" value="539be7" />
     <option name="GUTTER_BACKGROUND" value="272822" />
-    <option name="INDENT_GUIDE" value="3b3a32" />
+    <option name="INDENT_GUIDE" value="2c2e27" />
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
     <option name="METHOD_SEPARATORS_COLOR" value="" />
+    <option name="RIGHT_MARGIN_COLOR" value="2c2e27" />
     <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
     <option name="SELECTION_BACKGROUND" value="49483e" />
+    <option name="VISUAL_INDENT_GUIDE" value="ffffff" />
     <option name="WHITESPACES" value="3b3a32" />
   </colors>
   <attributes>
