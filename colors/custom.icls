@@ -1406,6 +1406,9 @@
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
     </option>
+    <option name="TS.TYPE_GUARD">
+      <value />
+    </option>
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
