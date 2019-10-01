@@ -596,13 +596,17 @@
     <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="191b1d" />
-        <option name="BACKGROUND" value="e5e5e5" />
+        <option name="BACKGROUND" value="35a7e5" />
+      </value>
+    </option>
+    <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="35a7e5" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="101" />
-        <option name="BACKGROUND" value="c7c7ff" />
+        <option name="BACKGROUND" value="a437d" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -881,6 +885,11 @@
     <option name="MESSAGE_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="a437d" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
