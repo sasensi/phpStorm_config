@@ -178,6 +178,7 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
+  <action id="ForceRefresh" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="shift ctrl g" />
@@ -212,6 +213,9 @@
   </action>
   <action id="Images.Editor.ZoomIn" />
   <action id="ImplementMethods" />
+  <action id="JavaScript.Debugger.ReloadInBrowser">
+    <keyboard-shortcut first-keystroke="shift ctrl f5" />
+  </action>
   <action id="Jdbc.OpenConsole.New.Generate">
     <keyboard-shortcut first-keystroke="ctrl numpad9" />
   </action>
