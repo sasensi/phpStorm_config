@@ -48,6 +48,9 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl colon" />
   </action>
+  <action id="Compare.SameVersion">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
