@@ -15,6 +15,10 @@
   <action id="ActivateRemoteHostToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad4" />
   </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+    <keyboard-shortcut first-keystroke="ctrl numpad8" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad7" />
   </action>
@@ -61,10 +65,6 @@
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.Execute.Selection">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
-  </action>
-  <action id="Console.Open">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <keyboard-shortcut first-keystroke="ctrl numpad8" />
   </action>
   <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.ColumnSortReset" />
