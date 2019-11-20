@@ -15,6 +15,10 @@
   <action id="ActivateRemoteHostToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad4" />
   </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="ctrl numpad9" />
+  </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
     <keyboard-shortcut first-keystroke="ctrl numpad8" />
@@ -218,9 +222,6 @@
   <action id="ImplementMethods" />
   <action id="JavaScript.Debugger.ReloadInBrowser">
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
-  </action>
-  <action id="Jdbc.OpenConsole.New.Generate">
-    <keyboard-shortcut first-keystroke="ctrl numpad9" />
   </action>
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="ctrl enter" />
