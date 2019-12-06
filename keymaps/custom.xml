@@ -117,7 +117,9 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
-  <action id="EditorCompleteStatement" />
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
@@ -252,7 +254,6 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="Macro.endline semicolon">
-    <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
   <action id="Macro.php echo in HTML">
