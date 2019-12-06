@@ -37,11 +37,9 @@
   <action id="ChooseRunConfiguration" />
   <action id="CloseActiveTab" />
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="ctrl alt w" />
-  </action>
-  <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CloseContent" />
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
