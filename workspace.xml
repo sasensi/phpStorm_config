@@ -1,0 +1,12 @@
+<application>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="ts.type.hints" />
+    <settingsMapElement>
+      <TypeScript.ts.type.hints>
+        <Settings>
+          <option name="showForInferredParameters" value="false" />
+        </Settings>
+      </TypeScript.ts.type.hints>
+    </settingsMapElement>
+  </component>
+</application>
