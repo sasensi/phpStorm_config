@@ -35,9 +35,11 @@
   <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChooseRunConfiguration" />
-  <action id="CloseActiveTab" />
-  <action id="CloseAllEditors">
+  <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="CloseContent" />
   <action id="CollapseRegion">
@@ -160,7 +162,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="shift ctrl w" />
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
   <action id="ExpandAll" />
