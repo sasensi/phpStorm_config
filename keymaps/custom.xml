@@ -42,6 +42,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
@@ -134,6 +137,8 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -164,7 +169,9 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
-  <action id="ExpandAll" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
   <action id="ExpandAllRegions" />
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
