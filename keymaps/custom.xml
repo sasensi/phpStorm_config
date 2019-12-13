@@ -159,6 +159,9 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="EditorSortLines">
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl enter" />
