@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="dockerfile" type="Dockerfile" />
       <mapping pattern="mustache" type="Handlebars/Mustache" />
       <mapping ext="czml" type="JSON" />
       <mapping ext="indd" type="Native" />
