@@ -47,6 +47,7 @@
       <mapping ext="bz2" type="PLAIN_TEXT" />
       <mapping ext="private" type="PLAIN_TEXT" />
       <mapping ext="ad" type="PLAIN_TEXT" />
+      <mapping ext="torrent" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="10056" type="PLAIN_TEXT" />
