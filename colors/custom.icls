@@ -257,11 +257,6 @@
         <option name="FOREGROUND" value="754200" />
       </value>
     </option>
-    <option name="CSS.COMMENT">
-      <value>
-        <option name="FOREGROUND" value="75715e" />
-      </value>
-    </option>
     <option name="CSS.FUNCTION">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
@@ -391,7 +386,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="75715e" />
+        <option name="FOREGROUND" value="99947f" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -402,17 +397,17 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="75715e" />
+        <option name="FOREGROUND" value="99947f" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="75715e" />
+        <option name="FOREGROUND" value="99947f" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="75715e" />
+        <option name="FOREGROUND" value="99947f" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -456,7 +451,7 @@
     <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="807c6a" />
+        <option name="FOREGROUND" value="99947f" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
@@ -730,11 +725,6 @@
       <value>
         <option name="FOREGROUND" value="e6db74" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="HTML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
@@ -1251,11 +1241,6 @@
     <option name="RUBY_WORDS">
       <value>
         <option name="FOREGROUND" value="e6db74" />
-      </value>
-    </option>
-    <option name="SASS_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
     <option name="SASS_DEFAULT">
