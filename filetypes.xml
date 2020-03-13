@@ -4,6 +4,7 @@
       <mapping pattern="mustache" type="Handlebars/Mustache" />
       <mapping ext="czml" type="JSON" />
       <mapping ext="indd" type="Native" />
+      <mapping pattern="m" type="PLAIN_TEXT" />
       <mapping pattern=".bash_history" type="PLAIN_TEXT" />
       <mapping pattern="bench-reference" type="PLAIN_TEXT" />
       <mapping pattern="FIRST_INSTALL" type="PLAIN_TEXT" />
