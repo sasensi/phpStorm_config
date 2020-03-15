@@ -50,6 +50,7 @@
       <mapping ext="ad" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
+      <mapping ext="xd" type="PLAIN_TEXT" />
       <mapping ext="10056" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="ldif" type="PLAIN_TEXT" />
