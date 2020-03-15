@@ -54,6 +54,7 @@
       <mapping ext="10056" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="ldif" type="PLAIN_TEXT" />
+      <mapping ext="sketch" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
       <mapping ext="pre" type="PLAIN_TEXT" />
       <mapping ext="params" type="PLAIN_TEXT" />
