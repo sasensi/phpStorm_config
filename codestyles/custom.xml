@@ -187,6 +187,7 @@
     <option name="VAR_DECLARATION_WRAP" value="5" />
     <option name="OBJECT_LITERAL_WRAP" value="1" />
     <option name="INDENT_CHAINED_CALLS" value="false" />
+    <option name="FUNCTION_EXPRESSION_BRACE_STYLE" value="2" />
   </JSCodeStyleSettings>
   <JSON>
     <option name="PROPERTY_ALIGNMENT" value="2" />
@@ -510,6 +511,9 @@
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="BRACE_STYLE" value="2" />
+    <option name="CLASS_BRACE_STYLE" value="2" />
+    <option name="METHOD_BRACE_STYLE" value="2" />
     <option name="ELSE_ON_NEW_LINE" value="true" />
     <option name="CATCH_ON_NEW_LINE" value="true" />
     <option name="FINALLY_ON_NEW_LINE" value="true" />
