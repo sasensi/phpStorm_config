@@ -33,6 +33,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
   <action id="Arrangement.Rule.Edit" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChooseRunConfiguration" />
   <action id="CloseActiveTab" />
@@ -273,9 +275,11 @@
   <action id="Macro.singleQuote_insertInString">
     <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
+  <action id="MethodDown" />
   <action id="MethodHierarchy" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="MethodUp" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
@@ -294,6 +298,10 @@
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
   <action id="NextSplitter">
@@ -311,6 +319,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
   <action id="PhpMethodHierarchy.BaseOnThisMethod" />
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
   <action id="PreviousTab" />
@@ -366,6 +378,7 @@
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Diff" />
+  <action id="ShowContent" />
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
@@ -375,6 +388,7 @@
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
+  <action id="ShowSearchHistory" />
   <action id="ShowUmlDiagram" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl exclamation_mark" />
@@ -435,8 +449,12 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.UpdateProject" />
-  <action id="VcsShowNextChangeMarker" />
-  <action id="VcsShowPrevChangeMarker" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
