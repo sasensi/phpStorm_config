@@ -70,9 +70,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
   </action>
   <action id="Console.History.Browse" />
-  <action id="Console.Jdbc.Execute.Selection">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-  </action>
   <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.ColumnSortReset" />
   <action id="Console.TableResult.DeleteRows">
@@ -158,6 +155,7 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="EditorSortLines">
     <keyboard-shortcut first-keystroke="ctrl numpad0" />
@@ -171,6 +169,7 @@
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
@@ -218,10 +217,10 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
@@ -275,6 +274,8 @@
     <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
   <action id="MethodHierarchy" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
@@ -293,12 +294,11 @@
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
-  <action id="NextDiff">
-    <keyboard-shortcut first-keystroke="f7" />
-    <keyboard-shortcut first-keystroke="ctrl down" />
-  </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
   <action id="NextTab" />
   <action id="OpenInBrowser">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
@@ -311,10 +311,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
   <action id="PhpMethodHierarchy.BaseOnThisMethod" />
-  <action id="PreviousDiff">
-    <keyboard-shortcut first-keystroke="shift f7" />
-    <keyboard-shortcut first-keystroke="ctrl up" />
-  </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
   <action id="PreviousTab" />
@@ -322,6 +318,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
   <action id="PublishGroup.UploadTo" />
+  <action id="QuickActionPopup" />
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
   <action id="RecentLocations">
@@ -356,6 +353,12 @@
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -432,6 +435,8 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
