@@ -137,7 +137,9 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMoveToPageBottom" />
-  <action id="EditorMoveToPageTop" />
+  <action id="EditorMoveToPageTop">
+    <keyboard-shortcut first-keystroke="ctrl alt end" />
+  </action>
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
