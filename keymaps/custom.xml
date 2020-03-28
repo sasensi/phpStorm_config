@@ -62,7 +62,7 @@
     <keyboard-shortcut first-keystroke="ctrl colon" />
   </action>
   <action id="Compare.SameVersion">
-    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute">
@@ -86,6 +86,7 @@
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload" />
+  <action id="Console.TableResult.SetDefault" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.OpenDdlInConsole" />
@@ -96,7 +97,7 @@
   <action id="Diagram.DeselectAll" />
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowDiff">
-    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="DomCollectionControl.Edit">
