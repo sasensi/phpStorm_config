@@ -187,6 +187,7 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
+  <action id="ExpandRegionRecursively" />
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder">
