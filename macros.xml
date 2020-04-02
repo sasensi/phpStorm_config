@@ -19,5 +19,9 @@
       <action id="EditorStartNewLineBefore" />
       <typing text-keycode="68:0;69:0;66:0;85:0;71:0;71:0;69:0;82:0;59:0">debugger;</typing>
     </macro>
+    <macro name="EOL colon">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="44:0">,</typing>
+    </macro>
   </component>
 </application>
