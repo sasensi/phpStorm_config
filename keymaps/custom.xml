@@ -233,6 +233,7 @@
   </action>
   <action id="Images.Editor.ZoomIn" />
   <action id="ImplementMethods" />
+  <action id="InsertLiveTemplate" />
   <action id="JavaScript.Debugger.ReloadInBrowser">
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
@@ -344,6 +345,7 @@
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="ctrl enter" />
