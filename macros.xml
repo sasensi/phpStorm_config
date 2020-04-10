@@ -23,5 +23,10 @@
       <action id="EditorLineEnd" />
       <typing text-keycode="44:0">,</typing>
     </macro>
+    <macro name="arrow function">
+      <action id="InsertLiveTemplate" />
+      <typing text-keycode="65:0;82:0;82:0;79:0">arro</typing>
+      <action id="EditorChooseLookupItem" />
+    </macro>
   </component>
 </application>
