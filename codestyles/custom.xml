@@ -13,7 +13,6 @@
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
-    <option name="VALUE_ALIGNMENT" value="1" />
     <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
   </CssCodeStyleSettings>
   <DB2CodeStyleSettings version="0">
