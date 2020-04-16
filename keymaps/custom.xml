@@ -1,4 +1,9 @@
 <keymap version="1" name="custom" parent="$default">
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="AceLineAction" />
+  <action id="AceTargetAction" />
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad2" />
   </action>
