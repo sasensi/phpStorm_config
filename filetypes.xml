@@ -9,8 +9,8 @@
       <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
       <mapping pattern=".bash_history" type="PLAIN_TEXT" />
+      <mapping pattern="SigningTable" type="PLAIN_TEXT" />
       <mapping pattern="bench-reference" type="PLAIN_TEXT" />
-      <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
       <mapping pattern="FIRST_INSTALL" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
@@ -32,7 +32,7 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="KeyTable" type="PLAIN_TEXT" />
       <mapping pattern="js" type="PLAIN_TEXT" />
-      <mapping pattern="SigningTable" type="PLAIN_TEXT" />
+      <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="ENABLE_INSTALL_TOO" type="PLAIN_TEXT" />
       <mapping pattern=".ftpquota" type="PLAIN_TEXT" />
