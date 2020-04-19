@@ -74,7 +74,9 @@
   </action>
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.CloneColumn" />
+  <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.ColumnSortReset" />
+  <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
@@ -90,6 +92,7 @@
   <action id="Console.TableResult.SetDefault" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
+  <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.OpenDdlInConsole" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.EvaluateInConsole">
@@ -122,11 +125,20 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
-  <action id="EditorDuplicate">
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="EditorLineStart">
@@ -138,9 +150,7 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMoveToPageBottom" />
-  <action id="EditorMoveToPageTop">
-    <keyboard-shortcut first-keystroke="ctrl alt end" />
-  </action>
+  <action id="EditorMoveToPageTop" />
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -171,6 +181,14 @@
   </action>
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="ctrl home" />
+    <keyboard-shortcut first-keystroke="ctrl alt end" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl home" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt end" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
@@ -288,6 +306,8 @@
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp" />
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
@@ -377,6 +397,7 @@
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="RunDashboard.CopyConfiguration" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -435,6 +456,8 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="Switcher" />
+  <action id="Terminal.MoveToolWindowTabLeft" />
+  <action id="Terminal.MoveToolWindowTabRight" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt f12" />
   </action>
@@ -474,6 +497,7 @@
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
   <action id="ViewSource" />
+  <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="ctrl b" />
