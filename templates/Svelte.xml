@@ -5,4 +5,11 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="each" value="{#each $ITEMS$ as $ITEM$}&#10;    $END$&#10;{/each}" description="svelte each" toReformat="false" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="regularExpression(ITEMS, &quot;s$&quot;, &quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
