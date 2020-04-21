@@ -2,7 +2,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig authType="PASSWORD" host="51.75.254.128" id="54b1c4f3-b14e-4eb1-86ee-bc6c4e2e1f48" port="22" customName="VPS" nameFormat="CUSTOM" username="sam" />
-      <sshConfig authType="PASSWORD" host="51.75.254.128" id="50b864ad-f43c-4fd8-bb80-72719f361546" port="22" customName="VPS" nameFormat="CUSTOM" username="sam" />
+      <sshConfig authType="PASSWORD" host="51.75.254.128" id="42020aea-c19a-43dd-a036-609fb69990ce" port="22" customName="VPS" nameFormat="CUSTOM" username="sam" />
     </configs>
   </component>
 </application>
