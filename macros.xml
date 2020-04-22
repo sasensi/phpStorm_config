@@ -28,5 +28,13 @@
       <typing text-keycode="65:0;82:0;82:0;79:0">arro</typing>
       <action id="EditorChooseLookupItem" />
     </macro>
+    <macro name="ace right">
+      <action id="AceAction" />
+      <action id="EditorRight" />
+    </macro>
+    <macro name="ace left">
+      <action id="AceAction" />
+      <action id="EditorUp" />
+    </macro>
   </component>
 </application>

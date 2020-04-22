@@ -125,14 +125,6 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
-  <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
-  </action>
-  <action id="EditorCodeBlockStart">
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
-  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -273,6 +265,12 @@
   </action>
   <action id="Macro.SUB =&gt; []">
     <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+  </action>
+  <action id="Macro.ace left">
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+  </action>
+  <action id="Macro.ace right">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
   </action>
   <action id="Macro.arrow">
     <keyboard-shortcut first-keystroke="ctrl 6" />
