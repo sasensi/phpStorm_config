@@ -287,4 +287,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="if" value="{ $condition$ &amp;&amp; &lt;&gt;&#10;    $END$&#10;&lt;/&gt;}" description="JSX if" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
