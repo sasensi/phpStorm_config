@@ -296,6 +296,7 @@
   <template name="frag" value="&lt;&gt;$END$&lt;/&gt;" description="fragment" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
 </templateSet>
