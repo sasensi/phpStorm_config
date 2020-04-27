@@ -211,6 +211,11 @@
         <option name="FOREGROUND" value="6b8b8" />
       </value>
     </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="9d9d9d" />
+      </value>
+    </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffb3b3" />
