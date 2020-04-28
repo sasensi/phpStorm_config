@@ -6,7 +6,6 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="da30ed15-0e2b-4113-b553-fab1c17ded6d" name="samuelasensi.com" url="http://samuelasensi.com">
@@ -14,15 +13,13 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="2120c5f5-a872-4dba-abac-491407455dc0" name="VPS" url="http://51.75.254.128">
-        <fileTransfer host="51.75.254.128" port="22" rootFolder="/usr/local/src" accessType="SFTP">
+        <fileTransfer rootFolder="/usr/local/src" accessType="SFTP" host="51.75.254.128" port="22" sshConfigId="f78dc5dd-1334-4249-a2d5-45dc5056514e" sshConfig="VPS">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
