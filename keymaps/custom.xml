@@ -45,7 +45,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="ctrl alt w" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl page_up" />

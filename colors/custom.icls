@@ -201,6 +201,11 @@
         <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="868eff" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
@@ -298,6 +303,13 @@
       <value>
         <option name="FOREGROUND" value="fd971f" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="CTRL_CLICKABLE">
+      <value>
+        <option name="FOREGROUND" value="6b67ff" />
+        <option name="EFFECT_COLOR" value="6b67ff" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -867,6 +879,11 @@
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value />
+    </option>
+    <option name="LOG_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="6e67ed" />
+      </value>
     </option>
     <option name="MACRONAME">
       <value>
