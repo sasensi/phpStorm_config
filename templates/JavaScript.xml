@@ -31,13 +31,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="p" value="new Point($X$,$Y$)" description="new Point()" toReformat="false" toShortenFQNames="true">
-    <variable name="X" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
-    <variable name="Y" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="center" value="project.activeLayer.position = view.center;" description="position layer at view center" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
