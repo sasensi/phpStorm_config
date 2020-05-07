@@ -48,5 +48,17 @@
       <action id="EditorScrollDown" />
       <action id="EditorScrollDown" />
     </macro>
+    <macro name="scroll up 10">
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+      <action id="EditorScrollUp" />
+    </macro>
   </component>
 </application>
