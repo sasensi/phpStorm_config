@@ -36,5 +36,17 @@
       <action id="AceAction" />
       <action id="EditorUp" />
     </macro>
+    <macro name="scroll down 10">
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+      <action id="EditorScrollDown" />
+    </macro>
   </component>
 </application>
