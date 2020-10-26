@@ -1,4 +1,7 @@
 <keymap version="1" name="custom" parent="$default">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
@@ -111,6 +114,9 @@
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="control button1" />
@@ -281,9 +287,6 @@
   </action>
   <action id="Macro.comment_title">
     <keyboard-shortcut first-keystroke="shift ctrl alt colon" />
-  </action>
-  <action id="Macro.debugger;">
-    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="Macro.endline semicolon">
     <keyboard-shortcut first-keystroke="ctrl period" />
