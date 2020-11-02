@@ -12,6 +12,7 @@
       <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
       <mapping pattern=".bash_history" type="PLAIN_TEXT" />
       <mapping pattern="file" type="PLAIN_TEXT" />
+      <mapping pattern="_Incapsula_Resource" type="PLAIN_TEXT" />
       <mapping pattern="js" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
@@ -55,6 +56,7 @@
       <mapping ext="pre" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="private" type="PLAIN_TEXT" />
+      <mapping ext="4149839586284201" type="PLAIN_TEXT" />
       <mapping ext="bz2" type="PLAIN_TEXT" />
       <mapping ext="9787" type="PLAIN_TEXT" />
       <mapping ext="xd" type="PLAIN_TEXT" />
