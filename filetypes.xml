@@ -9,16 +9,16 @@
       <mapping pattern=".md5sums" type="PLAIN_TEXT" />
       <mapping pattern="cronjobs" type="PLAIN_TEXT" />
       <mapping pattern="2016-09-21_add-column_menuitem-order.sql" type="PLAIN_TEXT" />
-      <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
       <mapping pattern=".bash_history" type="PLAIN_TEXT" />
+      <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
       <mapping pattern="file" type="PLAIN_TEXT" />
       <mapping pattern="_Incapsula_Resource" type="PLAIN_TEXT" />
       <mapping pattern="js" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_147" type="PLAIN_TEXT" />
       <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
-      <mapping pattern="command" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
+      <mapping pattern="command" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern="secret" type="PLAIN_TEXT" />
       <mapping pattern="2016-08-30_add-table_menuitem.sql" type="PLAIN_TEXT" />
