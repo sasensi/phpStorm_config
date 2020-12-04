@@ -14,9 +14,7 @@
   </template>
   <template name="thr" value="throw new \Exception('$MSG$');" description="throw new exception" toReformat="false" toShortenFQNames="true">
     <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP Expression" value="true" />
-    </context>
+    <context />
   </template>
   <template name="gettext" value="_($SELECTION$)" description="_('text to translate')" toReformat="false" toShortenFQNames="true">
     <context>
