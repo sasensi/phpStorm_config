@@ -111,9 +111,7 @@
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
+  <action id="EditSource" />
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
