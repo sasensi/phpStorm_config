@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="8e5b8d08-94af-4763-88f2-5e2bde4f0acf" name="sasensi">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="sasensi" />
     <option name="HOST" value="https://github.com" />
