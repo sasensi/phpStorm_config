@@ -309,11 +309,9 @@
   <action id="Macro.singleQuote_insertInString">
     <keyboard-shortcut first-keystroke="ctrl 4" />
   </action>
-  <action id="MethodDown" />
   <action id="MethodHierarchy" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
-  <action id="MethodUp" />
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
   <action id="MoveLineDown">
