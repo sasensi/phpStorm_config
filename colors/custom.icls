@@ -314,7 +314,7 @@
       <value>
         <option name="FOREGROUND" value="6b67ff" />
         <option name="EFFECT_COLOR" value="6b67ff" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -853,6 +853,12 @@
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ae81ff" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="a6e22e" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">

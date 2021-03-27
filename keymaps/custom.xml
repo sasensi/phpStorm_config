@@ -320,8 +320,12 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
-  <action id="MoveStatementDown" />
-  <action id="MoveStatementUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
