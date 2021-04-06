@@ -269,7 +269,7 @@
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="754200" />
+        <option name="FOREGROUND" value="e0c124" />
       </value>
     </option>
     <option name="CSS.FUNCTION">
@@ -314,7 +314,6 @@
       <value>
         <option name="FOREGROUND" value="6b67ff" />
         <option name="EFFECT_COLOR" value="6b67ff" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -890,6 +889,11 @@
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value />
+    </option>
+    <option name="LOG_EXPIRED_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="918f8f" />
+      </value>
     </option>
     <option name="LOG_VERBOSE_OUTPUT">
       <value>
