@@ -233,7 +233,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="a7a7a7" />
+        <option name="FOREGROUND" value="d4d4d4" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
@@ -253,7 +253,7 @@
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff6767" />
+        <option name="FOREGROUND" value="980707" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
