@@ -124,7 +124,7 @@
                   </entry>
                   <entry key="XSLT">
                     <value>
-                      <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
+                      <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" bundled="true" />
                     </value>
                   </entry>
                   <entry key="docker-deploy">
