@@ -83,6 +83,7 @@
       <mapping ext="ldif" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="plist" type="XML" />
       <mapping ext="sdef" type="XML" />
       <mapping ext="kml" type="XML" />
       <mapping ext="fnc" type="DBN-PSQL" />
