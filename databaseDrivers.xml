@@ -10,10 +10,13 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="mysql.8">
+      <artifact />
+      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.25" />
       <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.21" />
     </driver>
     <driver id="mysql">
-      <artifact id="MySQL Connector/J" name="MySQL Connector/J" use="true" version="5.1.46" />
+      <artifact />
+      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="5.1.47" />
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
       </library>
