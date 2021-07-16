@@ -427,6 +427,12 @@
         <option name="FOREGROUND" value="99947f" />
       </value>
     </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="a2a2a2" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
         <option name="FOREGROUND" value="99947f" />
