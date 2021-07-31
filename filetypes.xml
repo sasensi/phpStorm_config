@@ -43,6 +43,7 @@
       <mapping pattern=".env.example.docker" type="PLAIN_TEXT" />
       <mapping pattern="DockerFile" type="PLAIN_TEXT" />
       <mapping pattern=".default.vcl.swp" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="m" type="PLAIN_TEXT" />
       <mapping pattern="command" type="PLAIN_TEXT" />
       <mapping ext="kmz" type="PLAIN_TEXT" />
