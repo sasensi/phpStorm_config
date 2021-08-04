@@ -534,6 +534,7 @@
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </SybaseCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="ALIGN_VAR_STATEMENTS" value="1" />
     <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACKETS" value="true" />
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
