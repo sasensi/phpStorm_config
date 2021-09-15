@@ -43,6 +43,7 @@
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="CWMHostShowPopupAction" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChooseRunConfiguration" />
   <action id="CloseActiveTab" />
