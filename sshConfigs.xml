@@ -1,9 +1,6 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="sftp.sd3.gpaas.net" id="1de1b65f-3955-46de-9ea7-72f68617d704" port="22" customName="gandi" nameFormat="CUSTOM" username="3606528">
-        <option name="customName" value="gandi" />
-      </sshConfig>
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="51.75.254.128" id="f78dc5dd-1334-4249-a2d5-45dc5056514e" port="22" customName="VPS" nameFormat="CUSTOM" username="sam">
         <option name="customName" value="VPS" />
       </sshConfig>
