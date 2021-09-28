@@ -77,6 +77,7 @@
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="params" type="PLAIN_TEXT" />
+      <mapping ext="bkiwi" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="ori" type="PLAIN_TEXT" />
       <mapping ext="beautified" type="PLAIN_TEXT" />
