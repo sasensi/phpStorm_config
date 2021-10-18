@@ -1,5 +1,5 @@
 <application>
-  <component name="PhpAutoImport" auto_import_file_scope="true" />
+  <component name="PhpAutoImport" auto_import_file_scope="true" import_on_paste="ALL" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="81c165e1-0c78-4078-8438-36eb383a98a7" name="PHP 7.3" home="C:\bin\php-7.3\php.exe" debugger_id="php.debugger.XDebug" />
@@ -51,5 +51,8 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
+  </component>
+  <component name="PhpSmartKeysConfiguration">
+    <option name="smartFunctionParametersCompletion" value="true" />
   </component>
 </application>

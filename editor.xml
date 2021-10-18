@@ -6,6 +6,12 @@
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="SMART_INDENT_ON_ENTER" value="false" />
+    <option name="INSERT_BRACE_ON_ENTER" value="false" />
+    <option name="JAVADOC_STUB_ON_ENTER" value="false" />
+    <option name="REFORMAT_BLOCK_ON_RBRACE" value="false" />
+    <option name="REFORMAT_ON_PASTE" value="1" />
+    <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="false" />
   </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
@@ -22,6 +28,8 @@
     <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="IS_CAMEL_WORDS" value="true" />
+    <option name="IS_DND_ENABLED" value="false" />
   </component>
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
@@ -37,6 +45,9 @@
         </Settings>
       </TypeScript.ts.type.hints>
     </settingsMapElement>
+  </component>
+  <component name="JSEditorOptions">
+    <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
   </component>
   <component name="PhpCodeFoldingSettings">
     <option name="COLLAPSE_IMPORTS" value="false" />
@@ -58,5 +69,8 @@
     <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
     <option name="COLLAPSE_ENTITIES" value="false" />
     <option name="COLLAPSE_DATA_URI" value="false" />
+  </component>
+  <component name="XmlSettings">
+    <option name="SHOW_XML_ADD_IMPORT_HINTS" value="false" />
   </component>
 </application>
