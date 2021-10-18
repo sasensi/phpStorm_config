@@ -9,5 +9,22 @@
         </option>
       </State>
     </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="disabledLanguages">
+          <set>
+            <option value="HTML" />
+            <option value="JSON" />
+            <option value="TEXT" />
+            <option value="yaml" />
+          </set>
+        </option>
+        <option name="enabledLanguages">
+          <set>
+            <option value="JavaScript" />
+          </set>
+        </option>
+      </CheckingContext>
+    </option>
   </component>
 </application>

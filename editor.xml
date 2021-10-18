@@ -3,6 +3,10 @@
     <option name="COLLAPSE_IMPORTS" value="false" />
     <option name="COLLAPSE_FILE_HEADER" value="false" />
   </component>
+  <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -36,6 +40,10 @@
   </component>
   <component name="PhpCodeFoldingSettings">
     <option name="COLLAPSE_IMPORTS" value="false" />
+  </component>
+  <component name="SqlCodeCompletionSettings" USE_ALIAS_JOIN_COMPLETION="false" SUGGEST_ALIAS_NAMES="false">
+    <option name="suggestAliasNames" value="false" />
+    <option name="useAliasInJoinCompletion" value="false" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\bfixme\b.*" />
