@@ -1,18 +1,18 @@
 <templateSet group="Svelte">
-  <template name="if" value="{#if $CONDITION$}&#10;    $END$&#10;{/if}" description="svelte if" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="{#if $CONDITION$}&#10;    $END$&#10;{/if}" description="svelte if" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="each" value="{#each $ITEMS$ as $ITEM$}&#10;    $END$&#10;{/each}" description="svelte each" toReformat="false" toShortenFQNames="true">
+  <template name="each" value="{#each $ITEMS$ as $ITEM$}&#10;    $END$&#10;{/each}" description="svelte each" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM" expression="regularExpression(ITEMS, &quot;s$&quot;, &quot;&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="ifelse" value="{#if $CONDITION$}&#10;    $STATEMENT$&#10;{:else}&#10;    $END$&#10;{/if}" description="svelte if else" toReformat="false" toShortenFQNames="true">
+  <template name="ifelse" value="{#if $CONDITION$}&#10;    $STATEMENT$&#10;{:else}&#10;    $END$&#10;{/if}" description="svelte if else" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="STATEMENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

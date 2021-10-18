@@ -1,16 +1,16 @@
 <templateSet group="Angular2">
-  <template name="ng2-bootstrap" value="import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';&#10;&#10;import { $APP$Module } from './$NAME$.module';&#10;&#10;platformBrowserDynamic().bootstrapModule($APP$Module)&#10;    .then(success =&gt; console.log(`Bootstrap success`))&#10;    .catch(error =&gt; console.log(error));&#10;$END" description="Angular2 bootstrap" toReformat="false" toShortenFQNames="true">
+  <template name="ng2-bootstrap" value="import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';&#10;&#10;import { $APP$Module } from './$NAME$.module';&#10;&#10;platformBrowserDynamic().bootstrapModule($APP$Module)&#10;    .then(success =&gt; console.log(`Bootstrap success`))&#10;    .catch(error =&gt; console.log(error));&#10;$END" description="Angular2 bootstrap" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="APP" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="lowercaseAndDash(APP)" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="serv" value="private $service$: $Service$" description="constructor private service injection" toReformat="false" toShortenFQNames="true">
+  <template name="serv" value="private $service$: $Service$" description="constructor private service injection" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="Service" expression="" defaultValue="&quot;SomeService&quot;" alwaysStopAt="true" />
     <variable name="service" expression="decapitalize(Service)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="sub" value="this.$service$.$method$($arg$).subscribe(_ =&gt; this.$entity$ = _);" description="subscribe to service method filling component field" toReformat="false" toShortenFQNames="true">
+  <template name="sub" value="this.$service$.$method$($arg$).subscribe(_ =&gt; this.$entity$ = _);" description="subscribe to service method filling component field" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="service" expression="" defaultValue="&quot;service&quot;" alwaysStopAt="true" />
     <variable name="method" expression="" defaultValue="&quot;getAll&quot;" alwaysStopAt="true" />
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
@@ -19,7 +19,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="find" value="this.$array$.find($entity$ =&gt; $entity$.id === $input$)" description="find an item from id" toReformat="false" toShortenFQNames="true">
+  <template name="find" value="this.$array$.find($entity$ =&gt; $entity$.id === $input$)" description="find an item from id" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="array" expression="" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="entity" expression="" defaultValue="&quot;entity&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />

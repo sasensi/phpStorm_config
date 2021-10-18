@@ -13,6 +13,10 @@
     <option name="REFORMAT_ON_PASTE" value="1" />
     <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="false" />
   </component>
+  <component name="DefaultFont">
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
+  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -37,7 +41,8 @@
         <option value="JavaScript.js.type.hints" />
       </set>
     </option>
-    <option name="lastViewedProviderKeyId" value="ts.enum.hints" />
+    <option name="enabled" value="false" />
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
     <settingsMapElement>
       <TypeScript.ts.type.hints>
         <Settings>

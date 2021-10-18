@@ -287,13 +287,13 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="if" value="{ $condition$ &amp;&amp; &lt;&gt;&#10;    $END$&#10;&lt;/&gt;}" description="JSX if" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="{ $condition$ &amp;&amp; &lt;&gt;&#10;    $END$&#10;&lt;/&gt;}" description="JSX if" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
-  <template name="frag" value="&lt;&gt;$END$&lt;/&gt;" description="fragment" toReformat="true" toShortenFQNames="true">
+  <template name="frag" value="&lt;&gt;$END$&lt;/&gt;" description="fragment" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JSX_HTML" value="true" />
       <option name="JS_EXPRESSION" value="true" />

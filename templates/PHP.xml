@@ -1,59 +1,93 @@
 <templateSet group="PHP">
-  <template name="kv" value="'$KEY$' =&gt; $VALUE$" description="key =&gt; value pair" toReformat="false" toShortenFQNames="true">
+  <template name="kv" value="'$KEY$' =&gt; $VALUE$" description="key =&gt; value pair" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ei" value="elseif ($CONDITION$)&#10;{&#10;    $END$&#10;}" description="else if" toReformat="false" toShortenFQNames="true">
+  <template name="ei" value="elseif ($CONDITION$)&#10;{&#10;    $END$&#10;}" description="else if" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Expression" value="true" />
     </context>
   </template>
-  <template name="thr" value="throw new \Exception('$MSG$');" description="throw new exception" toReformat="false" toShortenFQNames="true">
+  <template name="thr" value="throw new \Exception('$MSG$');" description="throw new exception" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="gettext" value="_($SELECTION$)" description="_('text to translate')" toReformat="false" toShortenFQNames="true">
+  <template name="gettext" value="_($SELECTION$)" description="_('text to translate')" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="PHP Expression" value="true" />
     </context>
   </template>
-  <template name="gettext_in_string" value="'._('$SELECTION$').'" description="surround with gettext in single quotted string" toReformat="false" toShortenFQNames="true">
+  <template name="gettext_in_string" value="'._('$SELECTION$').'" description="surround with gettext in single quotted string" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="lazy" value="if (!isset($VAR$))&#10;{&#10;    $VAR$ = $VALUE$;&#10;}&#10;return $VAR$;" description="lazy loading setter" toReformat="false" toShortenFQNames="true">
+  <template name="lazy" value="if (!isset($VAR$))&#10;{&#10;    $VAR$ = $VALUE$;&#10;}&#10;return $VAR$;" description="lazy loading setter" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP Expression" value="true" />
     </context>
   </template>
-  <template name="middleware" value="['uses' =&gt; $SELECTION$, 'middleware' =&gt; $auth$]" description="" toReformat="false" toShortenFQNames="true">
+  <template name="middleware" value="['uses' =&gt; $SELECTION$, 'middleware' =&gt; $auth$]" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="auth" expression="enum(&quot;USER_AUTHENTICATION&quot;,&quot;BARMAN_AUTHENTICATION&quot;,&quot;MANAGER_AUTHENTICATION&quot;,&quot;ADMIN_AUTHENTICATION&quot;)" defaultValue="&quot;USER_AUTHENTICATION&quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="middleware_group" value="$app-&gt;group(['middleware' =&gt; $middleware$], function () use ($app)&#10;{&#10;   &#9;$SELECTION$&#10;});" description="" toReformat="false" toShortenFQNames="true">
+  <template name="middleware_group" value="$app-&gt;group(['middleware' =&gt; $middleware$], function () use ($app)&#10;{&#10;   &#9;$SELECTION$&#10;});" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="middleware" expression="enum(&quot;USER_AUTHENTICATION&quot;,&quot;BARMAN_AUTHENTICATION&quot;,&quot;MANAGER_AUTHENTICATION&quot;,&quot;ADMIN_AUTHENTICATION&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="orNull" value="($SELECTION$ ?? null)" description="variable or null" toReformat="false" toShortenFQNames="true">
+  <template name="orNull" value="($SELECTION$ ?? null)" description="variable or null" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="issetBefore" value="isset($SELECTION$) &amp;&amp; $SELECTION$" description="check if isset before existing condition" toReformat="false" toShortenFQNames="true">
+  <template name="issetBefore" value="isset($SELECTION$) &amp;&amp; $SELECTION$" description="check if isset before existing condition" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="PHP" value="true" />
     </context>
+  </template>
+  <template name="fore" value="foreach ($ITERABLE$ as $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="forek" value="foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_KEY" expression="phpSuggestVariableName()" defaultValue="&quot;$index&quot;" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="rqr" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="rqro" value="require_once &quot;$END$&quot;;" description="'require_once' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="inc" value="include &quot;$END$&quot;;" description="'include' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="inco" value="include_once &quot;$END$&quot;;" description="'include_once' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="classFQN" value="$CLASS_FQN$" description="current class FQN" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="CLASS_FQN" expression="phpQualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="className" value="$CLASS_NAME$" description="current class name" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="CLASS_NAME" expression="phpClassName()" defaultValue="" alwaysStopAt="false" />
+    <context />
   </template>
 </templateSet>
