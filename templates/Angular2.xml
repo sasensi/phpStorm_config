@@ -3,7 +3,7 @@
     <variable name="APP" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="lowercaseAndDash(APP)" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="serv" value="private $service$: $Service$" description="constructor private service injection" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="serv" value="private $service$: $Service$" description="constructor private service injection" toReformat="false" toShortenFQNames="true">
     <variable name="Service" expression="" defaultValue="&quot;SomeService&quot;" alwaysStopAt="true" />
     <variable name="service" expression="decapitalize(Service)" defaultValue="" alwaysStopAt="false" />
     <context>
