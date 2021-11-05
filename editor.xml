@@ -6,7 +6,6 @@
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="SMART_INDENT_ON_ENTER" value="false" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
     <option name="JAVADOC_STUB_ON_ENTER" value="false" />
     <option name="REFORMAT_BLOCK_ON_RBRACE" value="false" />
