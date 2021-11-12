@@ -60,13 +60,8 @@
     <option name="useAliasInJoinCompletion" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\bfixme\b.*" />
-    <pattern useCustomColors="true" pattern="// debug">
-      <option name="FOREGROUND" value="0" />
-      <option name="BACKGROUND" value="ff3d64" />
-      <option name="FONT_TYPE" value="3" />
-    </pattern>
     <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bdebug\b.*" />
   </component>
   <component name="XmlFoldingSettings">
     <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
