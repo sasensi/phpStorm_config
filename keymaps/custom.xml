@@ -16,6 +16,7 @@
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad1" />
+    <keyboard-shortcut first-keystroke="ctrl 1" />
   </action>
   <action id="ActivateRegexTesterToolWindow">
     <keyboard-shortcut first-keystroke="ctrl numpad6" />
@@ -129,6 +130,7 @@
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="DuplicatesForm.SendToLeft" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
@@ -221,6 +223,7 @@
   <action id="ExpandRegionRecursively" />
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoHome" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -243,7 +246,9 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
+  <action id="GotoBookmark1" />
   <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
   <action id="GotoBookmark6" />
   <action id="GotoChangedFile" />
   <action id="GotoClass">
@@ -501,6 +506,7 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="ctrl numpad5" />
+    <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
