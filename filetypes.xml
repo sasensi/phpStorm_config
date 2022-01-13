@@ -74,6 +74,7 @@
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
+      <mapping ext="psb" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
