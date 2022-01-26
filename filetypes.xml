@@ -46,6 +46,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="m" type="PLAIN_TEXT" />
       <mapping pattern="command" type="PLAIN_TEXT" />
+      <mapping ext="kiwi" type="PLAIN_TEXT" />
       <mapping ext="kmz" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="sketch" type="PLAIN_TEXT" />
