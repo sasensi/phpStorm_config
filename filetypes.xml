@@ -46,6 +46,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="m" type="PLAIN_TEXT" />
       <mapping pattern="command" type="PLAIN_TEXT" />
+      <mapping ext="kiwi" type="PLAIN_TEXT" />
       <mapping ext="kmz" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="sketch" type="PLAIN_TEXT" />
@@ -74,11 +75,13 @@
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
+      <mapping ext="psb" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="params" type="PLAIN_TEXT" />
       <mapping ext="bkiwi" type="PLAIN_TEXT" />
+      <mapping ext="pack" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="ori" type="PLAIN_TEXT" />
       <mapping ext="beautified" type="PLAIN_TEXT" />
