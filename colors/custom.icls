@@ -210,8 +210,7 @@
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="97ff" />
+        <option name="FOREGROUND" value="97ff" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
@@ -221,8 +220,7 @@
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffff" />
+        <option name="FOREGROUND" value="ffff" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
@@ -247,8 +245,7 @@
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="1d5714" />
-        <option name="BACKGROUND" value="62f67d" />
+        <option name="FOREGROUND" value="62f67d" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
@@ -258,8 +255,7 @@
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ff00ff" />
+        <option name="FOREGROUND" value="ff00ff" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
@@ -274,8 +270,7 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="fe7277" />
+        <option name="FOREGROUND" value="ff0000" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
@@ -302,8 +297,7 @@
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffe055" />
+        <option name="FOREGROUND" value="ffe055" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
