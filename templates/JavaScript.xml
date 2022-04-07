@@ -36,7 +36,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="scale" value="project.activeLayer.fitBounds(view.bounds.scale(0.8));" description="scale active layer to view bounds" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="scale" value="project.activeLayer.fitBounds(view.bounds.scale(0.8));" description="scale active layer to view bounds" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
