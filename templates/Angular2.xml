@@ -27,4 +27,25 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="nga" value="&lt;ng-container *ngIf=&quot;($thing$|async) as $thingWithoutDollar$&quot;&gt;&#10;  $END$&#10;&lt;/ng-container&gt;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="thing" expression="complete()" defaultValue="&quot;thing&quot;" alwaysStopAt="true" />
+    <variable name="thingWithoutDollar" expression="substringBefore(thing, &quot;$&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ngi" value="&lt;ng-container *ngIf=&quot;$thing$&quot;&gt;&#10;  $END$&#10;&lt;/ng-container&gt;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="thing" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="nginput" value="private $name$$ = new BehaviorSubject&lt;$type$&gt;(null);&#10;&#10;get $name$() {&#10;  return this.$name$$.value;&#10;}&#10;&#10;@Input() set $name$($name$: $type$) {&#10;  this.$name$$.next($name$);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
