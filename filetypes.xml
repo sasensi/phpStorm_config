@@ -79,6 +79,7 @@
       <mapping ext="lnk" type="PLAIN_TEXT" />
       <mapping ext="psb" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
+      <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="params" type="PLAIN_TEXT" />
