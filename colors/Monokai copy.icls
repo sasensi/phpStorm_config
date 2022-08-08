@@ -3,10 +3,11 @@
     <property name="created">2022-08-05T09:09:54</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-08-06T09:28:36</property>
+    <property name="modified">2022-08-08T09:44:38</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <colors>
+    <option name="ADDED_LINES_COLOR" value="5b805b" />
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
     <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
