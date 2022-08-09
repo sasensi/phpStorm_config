@@ -15,5 +15,6 @@
     <mask>*.inc</mask>
     <mask>*.php</mask>
     <mask>*.scss</mask>
+    <mask>*.js</mask>
   </component>
 </application>
