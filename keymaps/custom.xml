@@ -324,9 +324,6 @@
   <action id="Macro.php echo in HTML">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
   </action>
-  <action id="Macro.scroll up 10">
-    <keyboard-shortcut first-keystroke="alt page_up" />
-  </action>
   <action id="Macro.semicolon_eol">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
