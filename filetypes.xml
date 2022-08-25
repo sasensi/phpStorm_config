@@ -7,6 +7,7 @@
       <mapping ext="agc" type="JSON" />
       <mapping ext="indd" type="Native" />
       <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern="bf5ffa3850bb4fa10ff987cddfbc82eead3150" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_145" type="PLAIN_TEXT" />
