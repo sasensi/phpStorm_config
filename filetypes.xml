@@ -98,6 +98,7 @@
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <mapping ext="sdef" type="XML" />
+      <mapping ext="rels" type="XML" />
       <mapping ext="kml" type="XML" />
       <mapping pattern=".taprc" type="YAML" />
       <removed_mapping ext="pdf" approved="true" type="Native" />
