@@ -1,5 +1,14 @@
 <code_scheme name="xd-to-sketch" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </value>
+  </option>
   <option name="RIGHT_MARGIN" value="100" />
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="" />
+  </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />

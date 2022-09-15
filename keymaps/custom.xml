@@ -46,6 +46,7 @@
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="AutoIndentLines" />
   <action id="CWMHostShowPopupAction" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChooseRunConfiguration" />
@@ -99,6 +100,7 @@
   <action id="Console.TableResult.SetDefault" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
+  <action id="CopyPaths" />
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.OpenDdlInConsole" />
   <action id="DatabaseView.PropertiesAction" />
@@ -323,17 +325,14 @@
   <action id="Macro.php echo in HTML">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
   </action>
-  <action id="Macro.scroll down 10">
-    <keyboard-shortcut first-keystroke="alt page_down" />
-  </action>
-  <action id="Macro.scroll up 10">
-    <keyboard-shortcut first-keystroke="alt page_up" />
-  </action>
   <action id="Macro.semicolon_eol">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="Macro.singleQuote_insertInString">
     <keyboard-shortcut first-keystroke="ctrl 4" />
+  </action>
+  <action id="MaximizeEditorInSplit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt exclamation_mark" />
   </action>
   <action id="MethodHierarchy" />
   <action id="MethodOverloadSwitchDown" />
@@ -505,6 +504,14 @@
   <action id="UML.ShowChanges" />
   <action id="UML.ZoomIn" />
   <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift alt j" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="shift ctrl exclamation_mark" />
+  </action>
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Show.Local.Changes">
@@ -525,8 +532,10 @@
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
   <action id="ViewSource" />
+  <action id="WelcomeScreen.CopyProjectPath" />
   <action id="XDebugger.CopyName">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />

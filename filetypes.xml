@@ -1,10 +1,13 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="shape_16" type="AUTO_DETECTED" />
+      <mapping pattern="shape_1050" type="AUTO_DETECTED" />
       <mapping ext="czml" type="JSON" />
       <mapping ext="agc" type="JSON" />
       <mapping ext="indd" type="Native" />
       <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern="bf5ffa3850bb4fa10ff987cddfbc82eead3150" type="PLAIN_TEXT" />
       <mapping pattern="preCalculatedRace_145" type="PLAIN_TEXT" />
@@ -63,6 +66,7 @@
       <mapping ext="9787" type="PLAIN_TEXT" />
       <mapping ext="xd" type="PLAIN_TEXT" />
       <mapping ext="torrent" type="PLAIN_TEXT" />
+      <mapping ext="pdf" type="PLAIN_TEXT" />
       <mapping ext="sherlocks" type="PLAIN_TEXT" />
       <mapping ext="post" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
@@ -77,6 +81,7 @@
       <mapping ext="lnk" type="PLAIN_TEXT" />
       <mapping ext="psb" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
+      <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="mdj" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="params" type="PLAIN_TEXT" />
@@ -93,8 +98,10 @@
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <mapping ext="sdef" type="XML" />
+      <mapping ext="rels" type="XML" />
       <mapping ext="kml" type="XML" />
       <mapping pattern=".taprc" type="YAML" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping pattern=".taprc" approved="true" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />

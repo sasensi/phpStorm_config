@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3435e59c-f401-44fc-ae6e-968d735782a0" name="VPS">
+        <fileTransfer rootFolder="/usr/local/src" accessType="SFTP" host="51.75.254.128" port="22" sshConfigId="f78dc5dd-1334-4249-a2d5-45dc5056514e" sshConfig="VPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

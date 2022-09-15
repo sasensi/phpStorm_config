@@ -36,49 +36,5 @@
       <action id="AceAction" />
       <action id="EditorUp" />
     </macro>
-    <macro name="scroll down 10">
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-      <action id="EditorScrollDown" />
-    </macro>
-    <macro name="scroll up 10">
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-      <action id="EditorScrollUp" />
-    </macro>
   </component>
 </application>

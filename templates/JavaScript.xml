@@ -14,12 +14,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="circ" value="new Path.Circle({&#10;    center: view.center,&#10;    radius: 50,&#10;    fillColor: 'orange'&#10;})" description="draw a circle" toReformat="false" toShortenFQNames="true">
+  <template name="circ" value="new Path.Circle({&#10;    center: view.center,&#10;    radius: 50,&#10;    fillColor: 'orange'&#10;})" description="draw a circle" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="text" value="new PointText({&#10;    content: '$MESSAGE$',&#10;    point: view.center + [0, -80],&#10;    justification: 'center'&#10;});" description="Draw a PointText" toReformat="false" toShortenFQNames="true">
+  <template name="text" value="new PointText({&#10;    content: '$MESSAGE$',&#10;    point: view.center + [0, -80],&#10;    justification: 'center'&#10;});" description="Draw a PointText" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="MESSAGE" expression="" defaultValue="&quot;Say something&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -31,7 +31,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="panel" value="paperjsLayersPanel.create({items:{expanded:true}});" description="instantiate paperjs layers panel" toReformat="false" toShortenFQNames="true">
+  <template name="panel" value="paperjsLayersPanel.create({items:{expanded:true}});" description="instantiate paperjs layers panel" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -47,7 +47,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="co" value="const $VARIABLE$ = $END$" description="const declaration" toReformat="false" toShortenFQNames="true">
+  <template name="co" value="const $VARIABLE$ = $END$" description="const declaration" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
