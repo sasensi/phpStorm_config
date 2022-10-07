@@ -5,7 +5,6 @@
       <mapping pattern="shape_1050" type="AUTO_DETECTED" />
       <mapping ext="czml" type="JSON" />
       <mapping ext="agc" type="JSON" />
-      <mapping ext="pdf" type="Native" />
       <mapping ext="indd" type="Native" />
       <mapping pattern=".ovhconfig" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
