@@ -58,6 +58,7 @@
       <mapping ext="aof" type="PLAIN_TEXT" />
       <mapping ext="reg" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="sh" type="PLAIN_TEXT" />
       <mapping ext="fntdata" type="PLAIN_TEXT" />
       <mapping ext="pre" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
