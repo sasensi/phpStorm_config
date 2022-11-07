@@ -26,6 +26,7 @@
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern="db_backup" type="PLAIN_TEXT" />
