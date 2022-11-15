@@ -22,6 +22,10 @@
           <option name="url" value="https://github.com/dperini/nwsapi.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/sasensi/workflow-playground.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\workspaces\xd2sketch" />
