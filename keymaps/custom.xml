@@ -531,6 +531,9 @@
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
   <action id="ViewSource" />
+  <action id="WebDeployment.BrowseServers">
+    <keyboard-shortcut first-keystroke="ctrl numpad4" />
+  </action>
   <action id="WelcomeScreen.CopyProjectPath" />
   <action id="XDebugger.CopyName">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
