@@ -26,6 +26,7 @@
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern="db_backup" type="PLAIN_TEXT" />
@@ -58,6 +59,8 @@
       <mapping ext="aof" type="PLAIN_TEXT" />
       <mapping ext="reg" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="sh" type="PLAIN_TEXT" />
+      <mapping ext="fntdata" type="PLAIN_TEXT" />
       <mapping ext="pre" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="private" type="PLAIN_TEXT" />
@@ -66,7 +69,6 @@
       <mapping ext="9787" type="PLAIN_TEXT" />
       <mapping ext="xd" type="PLAIN_TEXT" />
       <mapping ext="torrent" type="PLAIN_TEXT" />
-      <mapping ext="pdf" type="PLAIN_TEXT" />
       <mapping ext="sherlocks" type="PLAIN_TEXT" />
       <mapping ext="post" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
@@ -101,7 +103,6 @@
       <mapping ext="rels" type="XML" />
       <mapping ext="kml" type="XML" />
       <mapping pattern=".taprc" type="YAML" />
-      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping pattern=".taprc" approved="true" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
