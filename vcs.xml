@@ -34,9 +34,13 @@
           <option name="url" value="https://github.com/XD2Sketch/devops.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://51.75.254.128:10080/sam/esad-site.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\workspaces\xd2sketch" />
+    <option name="cloneParentDir" value="C:\workspaces" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
