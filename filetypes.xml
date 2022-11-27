@@ -26,7 +26,6 @@
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="TrustedHosts" type="PLAIN_TEXT" />
-      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="pathfile" type="PLAIN_TEXT" />
       <mapping pattern="db_backup" type="PLAIN_TEXT" />
@@ -103,6 +102,7 @@
       <mapping ext="rels" type="XML" />
       <mapping ext="kml" type="XML" />
       <mapping pattern=".taprc" type="YAML" />
+      <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping pattern=".taprc" approved="true" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
