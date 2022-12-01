@@ -106,7 +106,6 @@
       <mapping pattern=".taprc" type="YAML" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping pattern=".taprc" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern=".taprc" approved="true" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
