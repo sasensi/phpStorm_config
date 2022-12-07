@@ -75,6 +75,7 @@
       <mapping ext="sherlocks" type="PLAIN_TEXT" />
       <mapping ext="post" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="ad" type="PLAIN_TEXT" />
       <mapping ext="10056" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
